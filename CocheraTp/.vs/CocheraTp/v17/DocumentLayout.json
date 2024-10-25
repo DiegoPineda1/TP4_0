@@ -7,24 +7,36 @@
       "RelativeMoniker": "D:0:0:{F01C7ABD-A670-4DB6-84F7-F20F764AD274}|ApiClientes\\ApiClientes.csproj|solutionrelative:apiclientes\\controllers\\clientecotroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{46333C28-2B67-4173-81C4-DE91393ABFCD}|CocheraTp\\CocheraTp.csproj|c:\\users\\diego pineda\\desktop\\tp4_0\\cocheratp\\cocheratp\\servicios\\clientesevicio\\clienteservicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{46333C28-2B67-4173-81C4-DE91393ABFCD}|CocheraTp\\CocheraTp.csproj|solutionrelative:cocheratp\\servicios\\clientesevicio\\clienteservicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{46333C28-2B67-4173-81C4-DE91393ABFCD}|CocheraTp\\CocheraTp.csproj|c:\\users\\diego pineda\\desktop\\tp4_0\\cocheratp\\cocheratp\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46333C28-2B67-4173-81C4-DE91393ABFCD}|CocheraTp\\CocheraTp.csproj|solutionrelative:cocheratp\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{46333C28-2B67-4173-81C4-DE91393ABFCD}|CocheraTp\\CocheraTp.csproj|c:\\users\\diego pineda\\desktop\\tp4_0\\cocheratp\\cocheratp\\servicios\\clientesevicio\\iclienteservicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{46333C28-2B67-4173-81C4-DE91393ABFCD}|CocheraTp\\CocheraTp.csproj|solutionrelative:cocheratp\\servicios\\clientesevicio\\iclienteservicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{46333C28-2B67-4173-81C4-DE91393ABFCD}|CocheraTp\\CocheraTp.csproj|c:\\users\\diego pineda\\desktop\\tp4_0\\cocheratp\\cocheratp\\servicios\\clientesevicio\\clienteservicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46333C28-2B67-4173-81C4-DE91393ABFCD}|CocheraTp\\CocheraTp.csproj|solutionrelative:cocheratp\\servicios\\clientesevicio\\clienteservicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{46333C28-2B67-4173-81C4-DE91393ABFCD}|CocheraTp\\CocheraTp.csproj|c:\\users\\diego pineda\\desktop\\tp4_0\\cocheratp\\cocheratp\\repository\\carpetarepositorycliente\\unitofworkclientes\\unitofworkcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{46333C28-2B67-4173-81C4-DE91393ABFCD}|CocheraTp\\CocheraTp.csproj|solutionrelative:cocheratp\\repository\\carpetarepositorycliente\\unitofworkclientes\\unitofworkcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{46333C28-2B67-4173-81C4-DE91393ABFCD}|CocheraTp\\CocheraTp.csproj|c:\\users\\diego pineda\\desktop\\tp4_0\\cocheratp\\cocheratp\\repository\\carpetarepositorycliente\\unitofworkclientes\\iunitofworkcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{46333C28-2B67-4173-81C4-DE91393ABFCD}|CocheraTp\\CocheraTp.csproj|solutionrelative:cocheratp\\repository\\carpetarepositorycliente\\unitofworkclientes\\iunitofworkcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{46333C28-2B67-4173-81C4-DE91393ABFCD}|CocheraTp\\CocheraTp.csproj|c:\\users\\diego pineda\\desktop\\tp4_0\\cocheratp\\cocheratp\\repository\\carpetarepositorycliente\\implemetacion\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{46333C28-2B67-4173-81C4-DE91393ABFCD}|CocheraTp\\CocheraTp.csproj|solutionrelative:cocheratp\\repository\\carpetarepositorycliente\\implemetacion\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46333C28-2B67-4173-81C4-DE91393ABFCD}|CocheraTp\\CocheraTp.csproj|c:\\users\\diego pineda\\desktop\\tp4_0\\cocheratp\\cocheratp\\models\\db_cocherascontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46333C28-2B67-4173-81C4-DE91393ABFCD}|CocheraTp\\CocheraTp.csproj|solutionrelative:cocheratp\\models\\db_cocherascontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F01C7ABD-A670-4DB6-84F7-F20F764AD274}|ApiClientes\\ApiClientes.csproj|c:\\users\\diego pineda\\desktop\\tp4_0\\cocheratp\\apiclientes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F01C7ABD-A670-4DB6-84F7-F20F764AD274}|ApiClientes\\ApiClientes.csproj|solutionrelative:apiclientes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46333C28-2B67-4173-81C4-DE91393ABFCD}|CocheraTp\\CocheraTp.csproj|c:\\users\\diego pineda\\desktop\\tp4_0\\cocheratp\\cocheratp\\servicios\\clientesevicio\\iclienteservicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46333C28-2B67-4173-81C4-DE91393ABFCD}|CocheraTp\\CocheraTp.csproj|solutionrelative:cocheratp\\servicios\\clientesevicio\\iclienteservicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46333C28-2B67-4173-81C4-DE91393ABFCD}|CocheraTp\\CocheraTp.csproj|c:\\users\\diego pineda\\desktop\\tp4_0\\cocheratp\\cocheratp\\repository\\carpetarepositorycliente\\unitofworkclientes\\iunitofworkcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46333C28-2B67-4173-81C4-DE91393ABFCD}|CocheraTp\\CocheraTp.csproj|solutionrelative:cocheratp\\repository\\carpetarepositorycliente\\unitofworkclientes\\iunitofworkcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{46333C28-2B67-4173-81C4-DE91393ABFCD}|CocheraTp\\CocheraTp.csproj|c:\\users\\diego pineda\\desktop\\tp4_0\\cocheratp\\cocheratp\\repository\\carpetarepositorycliente\\interfaces\\iclienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -55,16 +67,8 @@
       "RelativeMoniker": "D:0:0:{1FBDD506-F4D2-448D-B1B5-6269A90846CC}|ApiFactura\\ApiFactura.csproj|solutionrelative:apifactura\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F01C7ABD-A670-4DB6-84F7-F20F764AD274}|ApiClientes\\ApiClientes.csproj|c:\\users\\diego pineda\\desktop\\tp4_0\\cocheratp\\apiclientes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F01C7ABD-A670-4DB6-84F7-F20F764AD274}|ApiClientes\\ApiClientes.csproj|solutionrelative:apiclientes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{46333C28-2B67-4173-81C4-DE91393ABFCD}|CocheraTp\\CocheraTp.csproj|c:\\users\\diego pineda\\desktop\\tp4_0\\cocheratp\\cocheratp\\models\\iva_condicione.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{46333C28-2B67-4173-81C4-DE91393ABFCD}|CocheraTp\\CocheraTp.csproj|solutionrelative:cocheratp\\models\\iva_condicione.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{46333C28-2B67-4173-81C4-DE91393ABFCD}|CocheraTp\\CocheraTp.csproj|c:\\users\\diego pineda\\desktop\\tp4_0\\cocheratp\\cocheratp\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{46333C28-2B67-4173-81C4-DE91393ABFCD}|CocheraTp\\CocheraTp.csproj|solutionrelative:cocheratp\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{46333C28-2B67-4173-81C4-DE91393ABFCD}|CocheraTp\\CocheraTp.csproj|c:\\users\\diego pineda\\desktop\\tp4_0\\cocheratp\\cocheratp\\cocheratp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -125,10 +129,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{F01C7ABD-A670-4DB6-84F7-F20F764AD274}|ApiClientes\\ApiClientes.csproj|c:\\users\\diego pineda\\desktop\\tp4_0\\cocheratp\\apiclientes\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{F01C7ABD-A670-4DB6-84F7-F20F764AD274}|ApiClientes\\ApiClientes.csproj|solutionrelative:apiclientes\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{46333C28-2B67-4173-81C4-DE91393ABFCD}|CocheraTp\\CocheraTp.csproj|c:\\users\\diego pineda\\desktop\\tp4_0\\cocheratp\\cocheratp\\models\\db_cocherascontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{46333C28-2B67-4173-81C4-DE91393ABFCD}|CocheraTp\\CocheraTp.csproj|solutionrelative:cocheratp\\models\\db_cocherascontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{57AAC652-77A1-4809-B891-C362718A71AB}|ApiAbonos\\ApiAbonos.csproj|c:\\users\\diego pineda\\desktop\\tp4_0\\cocheratp\\apiabonos\\controllers\\abonocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -198,7 +198,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -230,67 +230,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "ClienteRepository.cs",
               "DocumentMoniker": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\CocheraTp\\Repository\\CarpetaRepositoryCliente\\Implemetacion\\ClienteRepository.cs",
               "RelativeDocumentMoniker": "CocheraTp\\Repository\\CarpetaRepositoryCliente\\Implemetacion\\ClienteRepository.cs",
               "ToolTip": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\CocheraTp\\Repository\\CarpetaRepositoryCliente\\Implemetacion\\ClienteRepository.cs",
               "RelativeToolTip": "CocheraTp\\Repository\\CarpetaRepositoryCliente\\Implemetacion\\ClienteRepository.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAkwDoAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBMAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-25T16:06:13.739Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IUnitOfWorkCliente.cs",
-              "DocumentMoniker": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\CocheraTp\\Repository\\CarpetaRepositoryCliente\\unitofworkClientes\\IUnitOfWorkCliente.cs",
-              "RelativeDocumentMoniker": "CocheraTp\\Repository\\CarpetaRepositoryCliente\\unitofworkClientes\\IUnitOfWorkCliente.cs",
-              "ToolTip": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\CocheraTp\\Repository\\CarpetaRepositoryCliente\\unitofworkClientes\\IUnitOfWorkCliente.cs",
-              "RelativeToolTip": "CocheraTp\\Repository\\CarpetaRepositoryCliente\\unitofworkClientes\\IUnitOfWorkCliente.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T16:17:28.189Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UnitOfWorkCliente.cs",
-              "DocumentMoniker": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\CocheraTp\\Repository\\CarpetaRepositoryCliente\\unitofworkClientes\\UnitOfWorkCliente.cs",
-              "RelativeDocumentMoniker": "CocheraTp\\Repository\\CarpetaRepositoryCliente\\unitofworkClientes\\UnitOfWorkCliente.cs",
-              "ToolTip": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\CocheraTp\\Repository\\CarpetaRepositoryCliente\\unitofworkClientes\\UnitOfWorkCliente.cs",
-              "RelativeToolTip": "CocheraTp\\Repository\\CarpetaRepositoryCliente\\unitofworkClientes\\UnitOfWorkCliente.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAmwBUAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T16:37:44.778Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ClienteServicios.cs",
               "DocumentMoniker": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\CocheraTp\\Servicios\\ClienteSevicio\\ClienteServicios.cs",
               "RelativeDocumentMoniker": "CocheraTp\\Servicios\\ClienteSevicio\\ClienteServicios.cs",
               "ToolTip": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\CocheraTp\\Servicios\\ClienteSevicio\\ClienteServicios.cs",
               "RelativeToolTip": "CocheraTp\\Servicios\\ClienteSevicio\\ClienteServicios.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAkwCwAAABKAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAwwBEAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-25T16:25:30.332Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IClienteServicios.cs",
-              "DocumentMoniker": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\CocheraTp\\Servicios\\ClienteSevicio\\IClienteServicios.cs",
-              "RelativeDocumentMoniker": "CocheraTp\\Servicios\\ClienteSevicio\\IClienteServicios.cs",
-              "ToolTip": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\CocheraTp\\Servicios\\ClienteSevicio\\IClienteServicios.cs",
-              "RelativeToolTip": "CocheraTp\\Servicios\\ClienteSevicio\\IClienteServicios.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T16:25:19.3Z",
               "EditorCaption": ""
             },
             {
@@ -301,27 +262,14 @@
               "RelativeDocumentMoniker": "ApiClientes\\Controllers\\ClienteCotroller.cs",
               "ToolTip": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\ApiClientes\\Controllers\\ClienteCotroller.cs",
               "RelativeToolTip": "ApiClientes\\Controllers\\ClienteCotroller.cs",
-              "ViewState": "AgIAAH0AAAAAAAAAAAAIwBgAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAswGMAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-25T16:33:01.163Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IClienteRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\CocheraTp\\Repository\\CarpetaRepositoryCliente\\Interfaces\\IClienteRepository.cs",
-              "RelativeDocumentMoniker": "CocheraTp\\Repository\\CarpetaRepositoryCliente\\Interfaces\\IClienteRepository.cs",
-              "ToolTip": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\CocheraTp\\Repository\\CarpetaRepositoryCliente\\Interfaces\\IClienteRepository.cs",
-              "RelativeToolTip": "CocheraTp\\Repository\\CarpetaRepositoryCliente\\Interfaces\\IClienteRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T16:07:14.972Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "ClienteDtoOut.cs",
               "DocumentMoniker": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\CocheraTp\\Repository\\CarpetaRepositoryCliente\\DTOs\\ClienteDtoOut.cs",
               "RelativeDocumentMoniker": "CocheraTp\\Repository\\CarpetaRepositoryCliente\\DTOs\\ClienteDtoOut.cs",
@@ -329,12 +277,11 @@
               "RelativeToolTip": "CocheraTp\\Repository\\CarpetaRepositoryCliente\\DTOs\\ClienteDtoOut.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAswBoAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T17:47:19.211Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-25T17:47:19.211Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "VehiculoController.cs",
               "DocumentMoniker": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\ApiVehiculo\\Controllers\\VehiculoController.cs",
               "RelativeDocumentMoniker": "ApiVehiculo\\Controllers\\VehiculoController.cs",
@@ -342,12 +289,99 @@
               "RelativeToolTip": "ApiVehiculo\\Controllers\\VehiculoController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T17:30:29.917Z",
+              "WhenOpened": "2024-10-25T17:30:29.917Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "db_cocherasContext.cs",
+              "DocumentMoniker": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\CocheraTp\\Models\\db_cocherasContext.cs",
+              "RelativeDocumentMoniker": "CocheraTp\\Models\\db_cocherasContext.cs",
+              "ToolTip": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\CocheraTp\\Models\\db_cocherasContext.cs",
+              "RelativeToolTip": "CocheraTp\\Models\\db_cocherasContext.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAA0AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T16:02:43.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CLIENTE.cs",
+              "DocumentMoniker": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\CocheraTp\\Models\\CLIENTE.cs",
+              "RelativeDocumentMoniker": "CocheraTp\\Models\\CLIENTE.cs",
+              "ToolTip": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\CocheraTp\\Models\\CLIENTE.cs",
+              "RelativeToolTip": "CocheraTp\\Models\\CLIENTE.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAgwCEAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T16:41:24.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\ApiClientes\\Program.cs",
+              "RelativeDocumentMoniker": "ApiClientes\\Program.cs",
+              "ToolTip": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\ApiClientes\\Program.cs",
+              "RelativeToolTip": "ApiClientes\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAwwAwAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T16:35:56.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UnitOfWorkCliente.cs",
+              "DocumentMoniker": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\CocheraTp\\Repository\\CarpetaRepositoryCliente\\unitofworkClientes\\UnitOfWorkCliente.cs",
+              "RelativeDocumentMoniker": "CocheraTp\\Repository\\CarpetaRepositoryCliente\\unitofworkClientes\\UnitOfWorkCliente.cs",
+              "ToolTip": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\CocheraTp\\Repository\\CarpetaRepositoryCliente\\unitofworkClientes\\UnitOfWorkCliente.cs",
+              "RelativeToolTip": "CocheraTp\\Repository\\CarpetaRepositoryCliente\\unitofworkClientes\\UnitOfWorkCliente.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAwwBUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T16:37:44.778Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
+              "Title": "IClienteRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\CocheraTp\\Repository\\CarpetaRepositoryCliente\\Interfaces\\IClienteRepository.cs",
+              "RelativeDocumentMoniker": "CocheraTp\\Repository\\CarpetaRepositoryCliente\\Interfaces\\IClienteRepository.cs",
+              "ToolTip": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\CocheraTp\\Repository\\CarpetaRepositoryCliente\\Interfaces\\IClienteRepository.cs",
+              "RelativeToolTip": "CocheraTp\\Repository\\CarpetaRepositoryCliente\\Interfaces\\IClienteRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T16:07:14.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IClienteServicios.cs",
+              "DocumentMoniker": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\CocheraTp\\Servicios\\ClienteSevicio\\IClienteServicios.cs",
+              "RelativeDocumentMoniker": "CocheraTp\\Servicios\\ClienteSevicio\\IClienteServicios.cs",
+              "ToolTip": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\CocheraTp\\Servicios\\ClienteSevicio\\IClienteServicios.cs",
+              "RelativeToolTip": "CocheraTp\\Servicios\\ClienteSevicio\\IClienteServicios.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T16:25:19.3Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IUnitOfWorkCliente.cs",
+              "DocumentMoniker": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\CocheraTp\\Repository\\CarpetaRepositoryCliente\\unitofworkClientes\\IUnitOfWorkCliente.cs",
+              "RelativeDocumentMoniker": "CocheraTp\\Repository\\CarpetaRepositoryCliente\\unitofworkClientes\\IUnitOfWorkCliente.cs",
+              "ToolTip": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\CocheraTp\\Repository\\CarpetaRepositoryCliente\\unitofworkClientes\\IUnitOfWorkCliente.cs",
+              "RelativeToolTip": "CocheraTp\\Repository\\CarpetaRepositoryCliente\\unitofworkClientes\\IUnitOfWorkCliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T16:17:28.189Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\ApiVehiculo\\Program.cs",
               "RelativeDocumentMoniker": "ApiVehiculo\\Program.cs",
@@ -355,12 +389,11 @@
               "RelativeToolTip": "ApiVehiculo\\Program.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T17:30:42.835Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-25T17:30:42.835Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\ApiAbonos\\Program.cs",
               "RelativeDocumentMoniker": "ApiAbonos\\Program.cs",
@@ -368,25 +401,11 @@
               "RelativeToolTip": "ApiAbonos\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T16:31:48.697Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-25T16:31:48.697Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\ApiClientes\\Program.cs",
-              "RelativeDocumentMoniker": "ApiClientes\\Program.cs",
-              "ToolTip": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\ApiClientes\\Program.cs",
-              "RelativeToolTip": "ApiClientes\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T16:35:56.112Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\ApiFactura\\Program.cs",
               "RelativeDocumentMoniker": "ApiFactura\\Program.cs",
@@ -394,12 +413,11 @@
               "RelativeToolTip": "ApiFactura\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T16:45:41.742Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-25T16:45:41.742Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\ApiLugares\\Program.cs",
               "RelativeDocumentMoniker": "ApiLugares\\Program.cs",
@@ -407,12 +425,11 @@
               "RelativeToolTip": "ApiLugares\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T17:28:20.353Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-25T17:28:20.353Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "IVA_CONDICIONE.cs",
               "DocumentMoniker": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\CocheraTp\\Models\\IVA_CONDICIONE.cs",
               "RelativeDocumentMoniker": "CocheraTp\\Models\\IVA_CONDICIONE.cs",
@@ -424,19 +441,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "CLIENTE.cs",
-              "DocumentMoniker": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\CocheraTp\\Models\\CLIENTE.cs",
-              "RelativeDocumentMoniker": "CocheraTp\\Models\\CLIENTE.cs",
-              "ToolTip": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\CocheraTp\\Models\\CLIENTE.cs",
-              "RelativeToolTip": "CocheraTp\\Models\\CLIENTE.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAASwB8AAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T16:41:24.477Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "VehiculoRepository.cs",
               "DocumentMoniker": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\CocheraTp\\Repository\\CarpetaRepositoryVehiculo\\Implementacion\\VehiculoRepository.cs",
               "RelativeDocumentMoniker": "CocheraTp\\Repository\\CarpetaRepositoryVehiculo\\Implementacion\\VehiculoRepository.cs",
@@ -448,7 +453,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "UnitOfWorkVehiculo.cs",
               "DocumentMoniker": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\CocheraTp\\Repository\\CarpetaRepositoryVehiculo\\UnitofWorkVehiculo\\UnitOfWorkVehiculo.cs",
               "RelativeDocumentMoniker": "CocheraTp\\Repository\\CarpetaRepositoryVehiculo\\UnitofWorkVehiculo\\UnitOfWorkVehiculo.cs",
@@ -460,7 +465,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "IUnitOfWorkVehiculo.cs",
               "DocumentMoniker": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\CocheraTp\\Repository\\CarpetaRepositoryVehiculo\\UnitofWorkVehiculo\\IUnitOfWorkVehiculo.cs",
               "RelativeDocumentMoniker": "CocheraTp\\Repository\\CarpetaRepositoryVehiculo\\UnitofWorkVehiculo\\IUnitOfWorkVehiculo.cs",
@@ -472,7 +477,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "VehiculoServicio.cs",
               "DocumentMoniker": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\CocheraTp\\Servicios\\VehiculoServicio\\VehiculoServicio.cs",
               "RelativeDocumentMoniker": "CocheraTp\\Servicios\\VehiculoServicio\\VehiculoServicio.cs",
@@ -484,7 +489,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "CocheraTp.csproj",
               "DocumentMoniker": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\CocheraTp\\CocheraTp.csproj",
               "RelativeDocumentMoniker": "CocheraTp\\CocheraTp.csproj",
@@ -496,7 +501,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "LugarController.cs",
               "DocumentMoniker": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\ApiLugares\\Controllers\\LugarController.cs",
               "RelativeDocumentMoniker": "ApiLugares\\Controllers\\LugarController.cs",
@@ -508,7 +513,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "FacturaController.cs",
               "DocumentMoniker": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\ApiFactura\\Controllers\\FacturaController.cs",
               "RelativeDocumentMoniker": "ApiFactura\\Controllers\\FacturaController.cs",
@@ -520,7 +525,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "UnitOfWorkFactura.cs",
               "DocumentMoniker": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\CocheraTp\\Repository\\CarpetaRepositoryFactura\\UnitOfWorkFactura\\UnitOfWorkFactura.cs",
               "RelativeDocumentMoniker": "CocheraTp\\Repository\\CarpetaRepositoryFactura\\UnitOfWorkFactura\\UnitOfWorkFactura.cs",
@@ -532,7 +537,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "LugarRepository.cs",
               "DocumentMoniker": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\CocheraTp\\Repository\\CarpetaRepositoryLugar\\Interfaces\\LugarRepository.cs",
               "RelativeDocumentMoniker": "CocheraTp\\Repository\\CarpetaRepositoryLugar\\Interfaces\\LugarRepository.cs",
@@ -544,7 +549,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "UnitOfWorkLugar.cs",
               "DocumentMoniker": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\CocheraTp\\Repository\\CarpetaRepositoryLugar\\UnitOfWorkLugar\\UnitOfWorkLugar.cs",
               "RelativeDocumentMoniker": "CocheraTp\\Repository\\CarpetaRepositoryLugar\\UnitOfWorkLugar\\UnitOfWorkLugar.cs",
@@ -556,7 +561,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "IUnitOfWorkFactura.cs",
               "DocumentMoniker": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\CocheraTp\\Repository\\CarpetaRepositoryFactura\\UnitOfWorkFactura\\IUnitOfWorkFactura.cs",
               "RelativeDocumentMoniker": "CocheraTp\\Repository\\CarpetaRepositoryFactura\\UnitOfWorkFactura\\IUnitOfWorkFactura.cs",
@@ -568,7 +573,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "FacturaRepository.cs",
               "DocumentMoniker": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\CocheraTp\\Repository\\CarpetaRepositoryFactura\\Implementacion\\FacturaRepository.cs",
               "RelativeDocumentMoniker": "CocheraTp\\Repository\\CarpetaRepositoryFactura\\Implementacion\\FacturaRepository.cs",
@@ -580,7 +585,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "IFacturaService.cs",
               "DocumentMoniker": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\CocheraTp\\Servicios\\FacturaServicio\\IFacturaService.cs",
               "RelativeDocumentMoniker": "CocheraTp\\Servicios\\FacturaServicio\\IFacturaService.cs",
@@ -592,7 +597,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "FacturaService.cs",
               "DocumentMoniker": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\CocheraTp\\Servicios\\FacturaServicio\\FacturaService.cs",
               "RelativeDocumentMoniker": "CocheraTp\\Servicios\\FacturaServicio\\FacturaService.cs",
@@ -616,7 +621,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\ApiClientes\\appsettings.json",
               "RelativeDocumentMoniker": "ApiClientes\\appsettings.json",
@@ -637,18 +642,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-25T16:26:42.132Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "db_cocherasContext.cs",
-              "DocumentMoniker": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\CocheraTp\\Models\\db_cocherasContext.cs",
-              "RelativeDocumentMoniker": "CocheraTp\\Models\\db_cocherasContext.cs",
-              "ToolTip": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\CocheraTp\\Models\\db_cocherasContext.cs",
-              "RelativeToolTip": "CocheraTp\\Models\\db_cocherasContext.cs",
-              "ViewState": "AgIAAAUBAAAAAAAAAADgvxABAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T16:02:43.08Z"
             },
             {
               "$type": "Document",

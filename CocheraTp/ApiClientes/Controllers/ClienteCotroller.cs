@@ -13,24 +13,23 @@ namespace ApiClientes.Controllers
     public class ClienteCotroller : ControllerBase
     {
         private readonly IClienteServicios _clienteServicios;
-        public ClienteCotroller(IClienteServicios IClienteServicios)
+
+        public ClienteCotroller(IClienteServicios clienteServicios)
         {
-            _clienteServicios = IClienteServicios;
+            _clienteServicios = clienteServicios;
         }
+
         [HttpGet]
         public async Task<ActionResult<IEnumerable<ClienteDtoOut>>> GetClientesALL()
         {
             try
             {
-                if (_clienteServicios.GetAllClientesDto == null)
+                var clientes = await _clienteServicios.GetAllClientesDto();
+                if (clientes == null || !clientes.Any())
                 {
-                    return NotFound("La lista No existe");
+                    return NotFound("La lista de clientes está vacía o no existe");
                 }
-                if (_clienteServicios.GetAllClientesDto().Result.Count == 0)
-                {
-                    return NotFound("La lista De cliente esta vacia");
-                }
-                return Ok(await _clienteServicios.GetAllClientesDto());
+                return Ok(clientes);
             }
             catch (Exception)
             {
@@ -43,44 +42,23 @@ namespace ApiClientes.Controllers
         {
             try
             {
-                if (id == 0)
+                if (id <= 0)
                 {
-                    return BadRequest("El id no puede ser 0");
+                    return BadRequest("El ID no puede ser menor o igual a 0");
                 }
                 var cliente = await _clienteServicios.GetClienteByIdDto(id);
                 if (cliente == null)
                 {
-                    return NotFound("El Cliete no existe");
+                    return NotFound("El cliente no existe");
                 }
-                return cliente;
+                return Ok(cliente);
             }
             catch (Exception)
             {
                 return StatusCode(StatusCodes.Status500InternalServerError, "Error al obtener el cliente");
             }
+        }
 
-        }
-        private async Task<ActionResult<CLIENTE>> GetCliente(int id)
-        {
-            try
-            {
-                if (id == 0)
-                {
-                    return BadRequest("El id no puede ser 0");
-                }
-                var cliente = await _clienteServicios.GetClienteById(id);
-                if (cliente == null)
-                {
-                    return NotFound("El Cliete no existe");
-                }
-                return cliente;
-            }
-            catch (Exception)
-            {
-                return StatusCode(StatusCodes.Status500InternalServerError, "Error al obtener el cliente");
-            }
-            
-        }
         [HttpPut("{id}")]
         public async Task<IActionResult> PutCliente(int id, CLIENTE cliente)
         {
@@ -88,9 +66,9 @@ namespace ApiClientes.Controllers
             {
                 if (id != cliente.id_cliente)
                 {
-                    return BadRequest("El id no coincide con el cliente");
+                    return BadRequest("El ID no coincide con el cliente");
                 }
-                if(!validarCampos(cliente))
+                if (!ValidarCampos(cliente))
                 {
                     return BadRequest("Los campos no pueden ser nulos");
                 }
@@ -99,93 +77,63 @@ namespace ApiClientes.Controllers
                 {
                     return NotFound("El cliente no existe");
                 }
-                return Ok(id + " " + "Actualizado");
+                return Ok($"Cliente con ID {id} actualizado correctamente");
             }
             catch (Exception)
             {
                 return StatusCode(StatusCodes.Status500InternalServerError, "Error al actualizar el cliente");
             }
-            
         }
+
         [HttpPost]
-        public async Task<ActionResult<CLIENTE>> PostCliente(CLIENTE cliente)
+        public async Task<ActionResult> PostCliente(CLIENTE cliente)
         {
             try
             {
-                if(!validarCampos(cliente))
+                if (!ValidarCampos(cliente) || cliente.id_cliente != 0)
                 {
-                    return BadRequest("Los campos no pueden ser nulos");
-                }
-                if(cliente.id_cliente != 0)
-                {
-                    return BadRequest("El id no puede ser distinto de 0");
-                }
-                if(cliente.id_cliente == 0  || cliente.id_iva_condicion == 0 || cliente.id_tipo_doc == 0)
-                {
-                    return BadRequest("Los id no pueden ser 0");
+                    return BadRequest("Campos no válidos o ID distinto de 0");
                 }
                 await _clienteServicios.CreateCliente(cliente);
-                return Ok("Se Agrego Correctamente");
+                return Ok("Cliente agregado correctamente");
             }
             catch (Exception)
             {
                 return StatusCode(StatusCodes.Status500InternalServerError, "Error al crear el cliente");
-                throw;
             }
-            
         }
+
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteCliente(int id)
         {
             try
             {
-                if(id == 0)
+                if (id <= 0)
                 {
-                    return BadRequest("El id no puede ser 0");
+                    return BadRequest("El ID no puede ser menor o igual a 0");
                 }
-                var existe = await _clienteServicios.GetClienteByIdDto(id);
-                if(existe == null)
+                var cliente = await _clienteServicios.GetClienteByIdDto(id);
+                if (cliente == null)
                 {
                     return NotFound("El cliente no existe");
                 }
                 await _clienteServicios.DeleteCliente(id);
-                return Ok("Cliente eliminado");
+                return Ok("Cliente eliminado correctamente");
             }
             catch (Exception)
             {
                 return StatusCode(StatusCodes.Status500InternalServerError, "Error al eliminar el cliente");
-                throw;
             }
-            
         }
-        private bool validarCampos(CLIENTE cliente)
+
+        private bool ValidarCampos(CLIENTE cliente)
         {
-            if (cliente == null)
-            {
-                return false;
-            }
-            if (cliente.nombre == null || cliente.nombre == "")
-            {
-                return false;
-            }
-            if (cliente.apellido == null || cliente.apellido == "")
-            {
-                return false;
-            }
-            
-            if (cliente.nro_documento == null || cliente.nro_documento == "")
-            {
-                return false;
-            }
-            if (cliente.telefono == null || cliente.telefono == "")
-            {
-                return false;
-            }
-            if (cliente.e_mail == null || cliente.e_mail == "")
-            {
-                return false;
-            }
-            return true;
+            return cliente != null &&
+                   !string.IsNullOrEmpty(cliente.nombre) &&
+                   !string.IsNullOrEmpty(cliente.apellido) &&
+                   !string.IsNullOrEmpty(cliente.nro_documento) &&
+                   !string.IsNullOrEmpty(cliente.telefono) &&
+                   !string.IsNullOrEmpty(cliente.e_mail);
         }
     }
 }
