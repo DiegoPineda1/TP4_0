@@ -1,5 +1,6 @@
 ﻿
 using CocheraTp.Models;
+using CocheraTp.Repository.CarpetaRepositoryCliente.DTOs;
 using CocheraTp.Repository.CarpetaRepositoryCliente.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -35,14 +36,46 @@ namespace CocheraTp.Repository.CarpetaRepositoryCliente.Implemetacion
             return false;
         }
 
-        public Task<List<CLIENTE>> GetAllClientes()
+        public async Task<List<ClienteDtoOut>> GetAllClientesDto()
         {
-            return _context.CLIENTEs.ToListAsync();
+            return await _context.CLIENTEs
+                .Select(c => new ClienteDtoOut
+                {
+                    id_cliente = c.id_cliente,
+                    nombre = c.nombre,
+                    apellido = c.apellido,
+                    Tipo_doc = c.id_tipo_docNavigation.descripcion,
+                    nro_documento = c.nro_documento,
+                    direccion = c.direccion,
+                    telefono = c.telefono,
+                    e_mail = c.e_mail,
+                    Iva = c.id_iva_condicionNavigation.descripcion
+
+                }).ToListAsync();
         }
 
         public async Task<CLIENTE> GetClienteById(int id)
         {
             return await _context.CLIENTEs.FindAsync(id);
+        }
+
+        public async Task<ClienteDtoOut> GetClienteByIdDto(int id)
+        {
+            return await _context.CLIENTEs
+                .Where(c => c.id_cliente == id)
+                .Select(c => new ClienteDtoOut
+                {
+                    id_cliente = c.id_cliente,
+                    nombre = c.nombre,
+                    apellido = c.apellido,
+                    Tipo_doc = c.id_tipo_docNavigation.descripcion,
+                    nro_documento = c.nro_documento,
+                    direccion = c.direccion,
+                    telefono = c.telefono,
+                    e_mail = c.e_mail,
+                    Iva = c.id_iva_condicionNavigation.descripcion
+                }).FirstOrDefaultAsync();
+
         }
 
         public async Task<bool> UpdateCliente(int id, CLIENTE clienteActualizado)

@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BackCochera.Repository.CarpetaRepositoryCliente.DTOs
+namespace CocheraTp.Repository.CarpetaRepositoryCliente.DTOs
 {
     public class ClienteDtoOut
     {
@@ -14,20 +15,15 @@ namespace BackCochera.Repository.CarpetaRepositoryCliente.DTOs
 
         public string apellido { get; set; }
 
-        public string contrasenia { get; set; }
+        public string? Tipo_doc { get; set; }
 
-        public string dni { get; set; }
+        public string nro_documento { get; set; }
 
-        public string? dirrecion { get; set; }
+        public string direccion { get; set; }
 
         public string telefono { get; set; }
-
-        public string nro_cuit { get; set; }
-
+        [EmailAddress]
         public string e_mail { get; set; }
-
-        public string? iva { get; set; }
-
-        public string? tipoDni { get; set; }
+        public string? Iva { get; set; }
     }
 }

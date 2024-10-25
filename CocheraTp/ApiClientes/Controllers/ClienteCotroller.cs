@@ -3,6 +3,8 @@ using CocheraTp.Servicios.ClienteSevicio;
 using CocheraTp.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using CocheraTp.Repository.CarpetaRepositoryCliente.DTOs;
+
 
 namespace ApiClientes.Controllers
 {
@@ -16,19 +18,19 @@ namespace ApiClientes.Controllers
             _clienteServicios = IClienteServicios;
         }
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<CLIENTE>>> GetClientes()
+        public async Task<ActionResult<IEnumerable<ClienteDtoOut>>> GetClientesALL()
         {
             try
             {
-                if (_clienteServicios.GetAllClientes == null)
+                if (_clienteServicios.GetAllClientesDto == null)
                 {
                     return NotFound("La lista No existe");
                 }
-                //if (_clienteServicios.GetAllClientes().Result.Count == 0)
-                //{
-                //    return NotFound("La lista De cliente esta vacia");
-                //}
-                return Ok(await _clienteServicios.GetAllClientes());
+                if (_clienteServicios.GetAllClientesDto().Result.Count == 0)
+                {
+                    return NotFound("La lista De cliente esta vacia");
+                }
+                return Ok(await _clienteServicios.GetAllClientesDto());
             }
             catch (Exception)
             {
@@ -36,9 +38,29 @@ namespace ApiClientes.Controllers
             }
         }
 
-
         [HttpGet("{id}")]
-        public async Task<ActionResult<CLIENTE>> GetCliente(int id)
+        public async Task<ActionResult<ClienteDtoOut>> GetClienteID(int id)
+        {
+            try
+            {
+                if (id == 0)
+                {
+                    return BadRequest("El id no puede ser 0");
+                }
+                var cliente = await _clienteServicios.GetClienteByIdDto(id);
+                if (cliente == null)
+                {
+                    return NotFound("El Cliete no existe");
+                }
+                return cliente;
+            }
+            catch (Exception)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, "Error al obtener el cliente");
+            }
+
+        }
+        private async Task<ActionResult<CLIENTE>> GetCliente(int id)
         {
             try
             {
@@ -121,7 +143,7 @@ namespace ApiClientes.Controllers
                 {
                     return BadRequest("El id no puede ser 0");
                 }
-                var existe = await _clienteServicios.GetClienteById(id);
+                var existe = await _clienteServicios.GetClienteByIdDto(id);
                 if(existe == null)
                 {
                     return NotFound("El cliente no existe");

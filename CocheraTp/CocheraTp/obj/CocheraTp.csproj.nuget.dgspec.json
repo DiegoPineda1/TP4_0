@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Diego Pineda\\Desktop\\Progra\\CocheraTp\\CocheraTp\\CocheraTp.csproj": {}
+    "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\CocheraTp\\CocheraTp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Diego Pineda\\Desktop\\Progra\\CocheraTp\\CocheraTp\\CocheraTp.csproj": {
+    "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\CocheraTp\\CocheraTp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Diego Pineda\\Desktop\\Progra\\CocheraTp\\CocheraTp\\CocheraTp.csproj",
+        "projectUniqueName": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\CocheraTp\\CocheraTp.csproj",
         "projectName": "CocheraTp",
-        "projectPath": "C:\\Users\\Diego Pineda\\Desktop\\Progra\\CocheraTp\\CocheraTp\\CocheraTp.csproj",
+        "projectPath": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\CocheraTp\\CocheraTp.csproj",
         "packagesPath": "C:\\Users\\Diego Pineda\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Diego Pineda\\Desktop\\Progra\\CocheraTp\\CocheraTp\\obj\\",
+        "outputPath": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\CocheraTp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -62,6 +62,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.10, )"
+            },
+            "Microsoft.Graph": {
+              "target": "Package",
+              "version": "[5.61.0, )"
             }
           },
           "imports": [

@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using CocheraTp.Repository.CarpetaRepositoryCliente.unitofworkClientes;
+using CocheraTp.Repository.CarpetaRepositoryCliente.DTOs;
 
 namespace CocheraTp.Servicios.ClienteSevicio
 {
@@ -34,13 +35,19 @@ namespace CocheraTp.Servicios.ClienteSevicio
             }
             return false;
         }
-        public async Task<List<CLIENTE>> GetAllClientes()
+        public async Task<List<ClienteDtoOut>> GetAllClientesDto()
         {
-            return await _unitOfWork.ClienteRepository.GetAllClientes();
+            return await _unitOfWork.ClienteRepository.GetAllClientesDto();
         }
+
         public async Task<CLIENTE> GetClienteById(int id)
         {
             return await _unitOfWork.ClienteRepository.GetClienteById(id);
+        }
+
+        public async Task<ClienteDtoOut> GetClienteByIdDto(int id)
+        {
+            return await _unitOfWork.ClienteRepository.GetClienteByIdDto(id);
         }
         public async Task<bool> UpdateCliente(int id, CLIENTE clienteActualizado)
         {

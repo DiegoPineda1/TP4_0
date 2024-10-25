@@ -1,5 +1,5 @@
-﻿
-using CocheraTp.Models;
+﻿using CocheraTp.Models;
+using CocheraTp.Repository.CarpetaRepositoryCliente.DTOs;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +10,8 @@ namespace CocheraTp.Repository.CarpetaRepositoryCliente.Interfaces
 {
     public interface IClienteRepository
     {
-        Task<List<CLIENTE>> GetAllClientes();
+        Task<List<ClienteDtoOut>> GetAllClientesDto();
+        Task<ClienteDtoOut> GetClienteByIdDto(int id);
         Task<CLIENTE> GetClienteById(int id);
         Task<bool> CreateCliente(CLIENTE cliente);
         Task<bool> UpdateCliente(int id, CLIENTE clienteActualizado);
