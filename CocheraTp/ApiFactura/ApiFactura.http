@@ -1,0 +1,6 @@
+@ApiFactura_HostAddress = http://localhost:5081
+
+GET {{ApiFactura_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,98 @@
+﻿{
+   "CodeGenerationMode": 4,
+   "ContextClassName": "db_cocherasContext",
+   "ContextNamespace": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": false,
+   "ModelNamespace": null,
+   "OutputContextPath": null,
+   "OutputPath": "Models",
+   "PreserveCasingWithRegex": true,
+   "ProjectRootNamespace": "CocheraTp",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 2,
+   "SelectedToBeGenerated": 0,
+   "T4TemplatePath": null,
+   "Tables": [
+      {
+         "Name": "[dbo].[ABONOS]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CLIENTES]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DETALLE_FACTURAS]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FACTURAS]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FORMAS_DE_PAGO]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[IVA_CONDICIONES]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[LUGARES]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MARCAS]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MODELOS]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TIPO_FACTURAS]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TIPO_VEHICULOS]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TIPOS_DOC]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[USUARIOS]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[VEHICULOS]",
+         "ObjectType": 0
+      }
+   ],
+   "UiHint": null,
+   "UncountableWords": null,
+   "UseAsyncStoredProcedureCalls": true,
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": true,
+   "UseDateOnlyTimeOnly": true,
+   "UseDbContextSplitting": false,
+   "UseDecimalDataAnnotationForSprocResult": true,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseHierarchyId": false,
+   "UseInflector": true,
+   "UseLegacyPluralizer": false,
+   "UseManyToManyEntity": false,
+   "UseNoDefaultConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UsePrefixNavigationNaming": false,
+   "UseSchemaFolders": false,
+   "UseSchemaNamespaces": false,
+   "UseSpatial": false,
+   "UseT4": false
+}
