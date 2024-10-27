@@ -18,18 +18,7 @@ namespace CocheraTp.Repository.CarpetaRepositoryFactura.Implementacion
         {
             _context = context;
         }
-
-        public Task<bool> Create(FACTURA factura)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Task<bool> DeleteById(int id)
-        {
-            throw new NotImplementedException();
-        }
-
-        public async Task<List<FACTURA>> GetAll()
+        public async Task<List<FACTURA?>> GetAll()
         {
             var facturas = await _context.FACTURAs
                 .Include(f => f.DETALLE_FACTURAs)
@@ -43,14 +32,38 @@ namespace CocheraTp.Repository.CarpetaRepositoryFactura.Implementacion
             return facturas;
         }
 
-        public Task<FACTURA> GetById(int id)
+        public async Task<FACTURA?> GetById(int id)
         {
-            throw new NotImplementedException();
+            var f = await _context.FACTURAs.FindAsync(id);
+            if (f != null)
+                return f;
+            return null;
         }
 
-        public Task<bool> Update(int id, FACTURA df)
+        public async Task<bool> Create(FACTURA factura)
         {
-            throw new NotImplementedException();
+            if (await _context.FACTURAs.AddAsync(factura) != null)
+                return true;
+            return false;
+        }
+
+        public async Task<bool> DeleteById(int id)
+        {
+            var f = await _context.FACTURAs.FindAsync(id);
+
+            if (f != null)
+                if (_context.FACTURAs.Remove(f) != null)
+                    return true;
+            return false;
+        }
+
+        public async Task<bool> Update(int id, FACTURA? f)
+        {
+            f = await _context.FACTURAs.FindAsync(id);
+            if (f != null)
+                if (_context.FACTURAs.Update(f) != null)
+                    return true;
+            return false;
         }
     }
 }

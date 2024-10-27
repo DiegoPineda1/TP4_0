@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using CocheraTp.Repository.CarpetaRepositoryCliente.DTOs;
 
 
-namespace ApiClientes.Controllers
+namespace ApiFactura.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
