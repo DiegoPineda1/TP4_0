@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ApiLugares")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b5852fcfd258504c4258439bbeb6f51b1ef382a0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e37c24cf2641dfdb1f9d934d7c07427cdc66a491")]
 [assembly: System.Reflection.AssemblyProductAttribute("ApiLugares")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ApiLugares")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

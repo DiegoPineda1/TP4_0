@@ -27,16 +27,21 @@ namespace CocheraTp.Repository.CarpetaRepositoryLugar.Interfaces
         }
 
 
-        public async Task<bool> UpdateLugar(int id, bool estaOcupado)
+        public async Task<bool> UpdateLugar(int id)
         {
             var lugar = await _context.LUGAREs.FindAsync(id);
-            if (lugar != null)
+
+            if(lugar.esta_ocupado == true)
             {
-                lugar.esta_ocupado = estaOcupado;
-                await _context.SaveChangesAsync();
+                lugar.esta_ocupado = false;
                 return true;
             }
-            return false;
+            else
+            {
+                lugar.esta_ocupado = true;
+                return true;
+            }
+            
         }
 
     }

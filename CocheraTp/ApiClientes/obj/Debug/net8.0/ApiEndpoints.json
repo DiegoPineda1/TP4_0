@@ -1,6 +1,6 @@
 [
   {
-    "ContainingType": "ApiClientes.Controllers.ClienteCotroller",
+    "ContainingType": "ApiFactura.Controllers.ClienteCotroller",
     "Method": "GetClientesALL",
     "RelativePath": "api/ClienteCotroller",
     "HttpMethod": "GET",
@@ -20,7 +20,7 @@
     ]
   },
   {
-    "ContainingType": "ApiClientes.Controllers.ClienteCotroller",
+    "ContainingType": "ApiFactura.Controllers.ClienteCotroller",
     "Method": "PostCliente",
     "RelativePath": "api/ClienteCotroller",
     "HttpMethod": "POST",
@@ -36,7 +36,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "ApiClientes.Controllers.ClienteCotroller",
+    "ContainingType": "ApiFactura.Controllers.ClienteCotroller",
     "Method": "GetClienteID",
     "RelativePath": "api/ClienteCotroller/{id}",
     "HttpMethod": "GET",
@@ -62,7 +62,7 @@
     ]
   },
   {
-    "ContainingType": "ApiClientes.Controllers.ClienteCotroller",
+    "ContainingType": "ApiFactura.Controllers.ClienteCotroller",
     "Method": "PutCliente",
     "RelativePath": "api/ClienteCotroller/{id}",
     "HttpMethod": "PUT",
@@ -83,7 +83,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "ApiClientes.Controllers.ClienteCotroller",
+    "ContainingType": "ApiFactura.Controllers.ClienteCotroller",
     "Method": "DeleteCliente",
     "RelativePath": "api/ClienteCotroller/{id}",
     "HttpMethod": "DELETE",

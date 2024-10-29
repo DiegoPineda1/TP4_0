@@ -2,6 +2,7 @@
 using CocheraTp.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using CocheraTp.Servicios.LugarServicio;
 
 
 namespace ApiLugares.Controllers
@@ -10,35 +11,58 @@ namespace ApiLugares.Controllers
     [ApiController]
     public class LugarController : ControllerBase
     {
-        private readonly IUnitOfWorkLugar _unitOfWork;
-        public LugarController(IUnitOfWorkLugar unitOfWork)
+        private readonly ILugarService _service;
+        public LugarController(ILugarService iservicio)
         {
-            _unitOfWork = unitOfWork;
+            _service = iservicio;
         }
 
         [HttpGet]
         public async Task<ActionResult<IEnumerable<LUGARE>>> GetAll()
         {
-            return await _unitOfWork.LugarRepository.GetAllLugares();
+            try
+            {
+                return await _service.GetAllLugares();
+            }
+            catch (Exception)
+            {
+
+                return null;
+            }
         }
 
         [HttpGet("disponibles")]
         public async Task<ActionResult<IEnumerable<LUGARE>>> GetLugaresDisponibles()
         {
-            return await _unitOfWork.LugarRepository.GetLugaresDisponibles();
+            try
+            {
+                return await _service.GetLugaresDisponibles();
+            }
+            catch (Exception)
+            {
+
+                return Ok(new List<LUGARE>());
+            }
 
         }
         [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateLugarEstado(int id, [FromBody] bool estaOcupado)
+        public async Task<IActionResult> UpdateLugarEstado(int id)
         {
-            var actualizado = await _unitOfWork.LugarRepository.UpdateLugar(id, estaOcupado);
-
-            if (!actualizado)
+            try
             {
-                return NotFound();
-            }
+                var actualizado = await _service.UpdateLugar(id);
 
-            return Ok("Estado del lugar actualizado con éxito.");
+                if (!actualizado)
+                {
+                    return NotFound();
+                }
+
+                return Ok("Estado del lugar actualizado con éxito.");
+            }
+            catch (Exception)
+            {
+                return BadRequest(new { message = "Ocurrió un error al actualizar el estado del lugar." });
+            }
         }
     }
 }
