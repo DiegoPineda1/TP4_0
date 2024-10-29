@@ -169,6 +169,7 @@ public partial class db_cocherasContext : DbContext
         modelBuilder.Entity<LUGARE>(entity =>
         {
             entity.HasKey(e => e.id_lugar).HasName("pk_lugar");
+            entity.Property(e => e.nombre_lugar).HasColumnName("nombre_lugar").HasMaxLength(5);
 
             entity.ToTable("LUGARES");
         });

@@ -27,3 +27,18 @@ C:\Users\Diego Pineda\Desktop\TP4_0\CocheraTp\CocheraTp\bin\Debug\net8.0\Cochera
 C:\Users\Diego Pineda\Desktop\TP4_0\CocheraTp\CocheraTp\bin\Debug\net8.0\CocheraTp.pdb
 C:\Users\Diego Pineda\Desktop\TP4_0\CocheraTp\CocheraTp\obj\Debug\net8.0\CocheraTp.genruntimeconfig.cache
 C:\Users\Diego Pineda\Desktop\TP4_0\CocheraTp\CocheraTp\obj\Debug\net8.0\ref\CocheraTp.dll
+C:\Users\Usuario\Desktop\TPI\TP4_0\CocheraTp\CocheraTp\bin\Debug\net8.0\CocheraTp.deps.json
+C:\Users\Usuario\Desktop\TPI\TP4_0\CocheraTp\CocheraTp\bin\Debug\net8.0\CocheraTp.runtimeconfig.json
+C:\Users\Usuario\Desktop\TPI\TP4_0\CocheraTp\CocheraTp\bin\Debug\net8.0\CocheraTp.dll
+C:\Users\Usuario\Desktop\TPI\TP4_0\CocheraTp\CocheraTp\bin\Debug\net8.0\CocheraTp.pdb
+C:\Users\Usuario\Desktop\TPI\TP4_0\CocheraTp\CocheraTp\obj\Debug\net8.0\CocheraTp.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\TPI\TP4_0\CocheraTp\CocheraTp\obj\Debug\net8.0\CocheraTp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Desktop\TPI\TP4_0\CocheraTp\CocheraTp\obj\Debug\net8.0\CocheraTp.AssemblyInfoInputs.cache
+C:\Users\Usuario\Desktop\TPI\TP4_0\CocheraTp\CocheraTp\obj\Debug\net8.0\CocheraTp.AssemblyInfo.cs
+C:\Users\Usuario\Desktop\TPI\TP4_0\CocheraTp\CocheraTp\obj\Debug\net8.0\CocheraTp.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\TPI\TP4_0\CocheraTp\CocheraTp\obj\Debug\net8.0\CocheraTp.sourcelink.json
+C:\Users\Usuario\Desktop\TPI\TP4_0\CocheraTp\CocheraTp\obj\Debug\net8.0\CocheraTp.dll
+C:\Users\Usuario\Desktop\TPI\TP4_0\CocheraTp\CocheraTp\obj\Debug\net8.0\refint\CocheraTp.dll
+C:\Users\Usuario\Desktop\TPI\TP4_0\CocheraTp\CocheraTp\obj\Debug\net8.0\CocheraTp.pdb
+C:\Users\Usuario\Desktop\TPI\TP4_0\CocheraTp\CocheraTp\obj\Debug\net8.0\CocheraTp.genruntimeconfig.cache
+C:\Users\Usuario\Desktop\TPI\TP4_0\CocheraTp\CocheraTp\obj\Debug\net8.0\ref\CocheraTp.dll

@@ -9,6 +9,7 @@ namespace CocheraTp.Models;
 public partial class LUGARE
 {
     public int id_lugar { get; set; }
+    public string nombre_lugar { get; set; }
 
     public bool? esta_ocupado { get; set; }
     [JsonIgnore]

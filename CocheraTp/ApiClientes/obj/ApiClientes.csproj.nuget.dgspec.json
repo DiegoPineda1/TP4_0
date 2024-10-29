@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\ApiClientes\\ApiClientes.csproj": {}
+    "C:\\Users\\Usuario\\Desktop\\TPI\\TP4_0\\CocheraTp\\ApiClientes\\ApiClientes.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\ApiClientes\\ApiClientes.csproj": {
+    "C:\\Users\\Usuario\\Desktop\\TPI\\TP4_0\\CocheraTp\\ApiClientes\\ApiClientes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\ApiClientes\\ApiClientes.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\TPI\\TP4_0\\CocheraTp\\ApiClientes\\ApiClientes.csproj",
         "projectName": "ApiClientes",
-        "projectPath": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\ApiClientes\\ApiClientes.csproj",
-        "packagesPath": "C:\\Users\\Diego Pineda\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\ApiClientes\\obj\\",
+        "projectPath": "C:\\Users\\Usuario\\Desktop\\TPI\\TP4_0\\CocheraTp\\ApiClientes\\ApiClientes.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Usuario\\Desktop\\TPI\\TP4_0\\CocheraTp\\ApiClientes\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Diego Pineda\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,14 +22,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\CocheraTp\\CocheraTp.csproj": {
-                "projectPath": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\CocheraTp\\CocheraTp.csproj"
+              "C:\\Users\\Usuario\\Desktop\\TPI\\TP4_0\\CocheraTp\\CocheraTp\\CocheraTp.csproj": {
+                "projectPath": "C:\\Users\\Usuario\\Desktop\\TPI\\TP4_0\\CocheraTp\\CocheraTp\\CocheraTp.csproj"
               }
             }
           }
@@ -91,25 +88,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\CocheraTp\\CocheraTp.csproj": {
+    "C:\\Users\\Usuario\\Desktop\\TPI\\TP4_0\\CocheraTp\\CocheraTp\\CocheraTp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\CocheraTp\\CocheraTp.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\TPI\\TP4_0\\CocheraTp\\CocheraTp\\CocheraTp.csproj",
         "projectName": "CocheraTp",
-        "projectPath": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\CocheraTp\\CocheraTp.csproj",
-        "packagesPath": "C:\\Users\\Diego Pineda\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\CocheraTp\\obj\\",
+        "projectPath": "C:\\Users\\Usuario\\Desktop\\TPI\\TP4_0\\CocheraTp\\CocheraTp\\CocheraTp.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Usuario\\Desktop\\TPI\\TP4_0\\CocheraTp\\CocheraTp\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Diego Pineda\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -117,6 +110,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -175,7 +169,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
