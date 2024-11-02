@@ -1,0 +1,6 @@
+@ApiTipoDoc_HostAddress = http://localhost:5223
+
+GET {{ApiTipoDoc_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

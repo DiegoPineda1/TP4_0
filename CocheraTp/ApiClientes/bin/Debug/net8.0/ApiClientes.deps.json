@@ -1072,10 +1072,7 @@
           "Microsoft.Graph": "5.61.0"
         },
         "runtime": {
-          "CocheraTp.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "CocheraTp.dll": {}
         }
       }
     }

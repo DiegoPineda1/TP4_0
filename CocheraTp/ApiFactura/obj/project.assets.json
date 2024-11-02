@@ -3347,11 +3347,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\TPI\\TP4_0\\CocheraTp\\ApiFactura\\ApiFactura.csproj",
+      "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\TP PROGRA\\TP4_0\\CocheraTp\\ApiFactura\\ApiFactura.csproj",
       "projectName": "ApiFactura",
-      "projectPath": "C:\\Users\\Usuario\\Desktop\\TPI\\TP4_0\\CocheraTp\\ApiFactura\\ApiFactura.csproj",
+      "projectPath": "C:\\Users\\Usuario\\Desktop\\TP PROGRA\\TP4_0\\CocheraTp\\ApiFactura\\ApiFactura.csproj",
       "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Usuario\\Desktop\\TPI\\TP4_0\\CocheraTp\\ApiFactura\\obj\\",
+      "outputPath": "C:\\Users\\Usuario\\Desktop\\TP PROGRA\\TP4_0\\CocheraTp\\ApiFactura\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3369,8 +3369,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Usuario\\Desktop\\TPI\\TP4_0\\CocheraTp\\CocheraTp\\CocheraTp.csproj": {
-              "projectPath": "C:\\Users\\Usuario\\Desktop\\TPI\\TP4_0\\CocheraTp\\CocheraTp\\CocheraTp.csproj"
+            "C:\\Users\\Usuario\\Desktop\\TP PROGRA\\TP4_0\\CocheraTp\\CocheraTp\\CocheraTp.csproj": {
+              "projectPath": "C:\\Users\\Usuario\\Desktop\\TP PROGRA\\TP4_0\\CocheraTp\\CocheraTp\\CocheraTp.csproj"
             }
           }
         }

@@ -4205,11 +4205,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\TPI\\TP4_0\\CocheraTp\\CocheraTp\\CocheraTp.csproj",
+      "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\TP PROGRA\\TP4_0\\CocheraTp\\CocheraTp\\CocheraTp.csproj",
       "projectName": "CocheraTp",
-      "projectPath": "C:\\Users\\Usuario\\Desktop\\TPI\\TP4_0\\CocheraTp\\CocheraTp\\CocheraTp.csproj",
+      "projectPath": "C:\\Users\\Usuario\\Desktop\\TP PROGRA\\TP4_0\\CocheraTp\\CocheraTp\\CocheraTp.csproj",
       "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Usuario\\Desktop\\TPI\\TP4_0\\CocheraTp\\CocheraTp\\obj\\",
+      "outputPath": "C:\\Users\\Usuario\\Desktop\\TP PROGRA\\TP4_0\\CocheraTp\\CocheraTp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",

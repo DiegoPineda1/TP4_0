@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZMO31A7uEcw=",
+  "dgSpecHash": "+plKfdfDLPE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Usuario\\Desktop\\TPI\\TP4_0\\CocheraTp\\CocheraTp\\CocheraTp.csproj",
+  "projectFilePath": "C:\\Users\\Usuario\\Desktop\\TP PROGRA\\TP4_0\\CocheraTp\\CocheraTp\\CocheraTp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Usuario\\.nuget\\packages\\azure.core\\1.43.0\\azure.core.1.43.0.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
