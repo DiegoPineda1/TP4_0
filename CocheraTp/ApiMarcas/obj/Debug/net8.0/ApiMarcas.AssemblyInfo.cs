@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ApiMarcas")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+033b80d76cb31b2f44b429be433c360ecc188ed1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b1a571e042fe27c36a3dadb81c9a00e5f276ec45")]
 [assembly: System.Reflection.AssemblyProductAttribute("ApiMarcas")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ApiMarcas")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

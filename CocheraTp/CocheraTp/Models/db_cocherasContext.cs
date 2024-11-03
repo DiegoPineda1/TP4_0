@@ -31,6 +31,8 @@ public partial class db_cocherasContext : DbContext
 
     public virtual DbSet<MODELO> MODELOs { get; set; }
 
+    public virtual DbSet<REMITO> REMITOs { get; set; }
+
     public virtual DbSet<TIPOS_DOC> TIPOS_DOCs { get; set; }
 
     public virtual DbSet<TIPO_FACTURA> TIPO_FACTURAs { get; set; }
@@ -169,9 +171,13 @@ public partial class db_cocherasContext : DbContext
         modelBuilder.Entity<LUGARE>(entity =>
         {
             entity.HasKey(e => e.id_lugar).HasName("pk_lugar");
-            entity.Property(e => e.nombre_lugar).HasColumnName("nombre_lugar").HasMaxLength(5);
 
             entity.ToTable("LUGARES");
+
+            entity.Property(e => e.nombre_lugar)
+                .IsRequired()
+                .HasMaxLength(5)
+                .IsUnicode(false);
         });
 
         modelBuilder.Entity<MARCA>(entity =>
@@ -198,6 +204,15 @@ public partial class db_cocherasContext : DbContext
             entity.HasOne(d => d.id_marcaNavigation).WithMany(p => p.MODELOs)
                 .HasForeignKey(d => d.id_marca)
                 .HasConstraintName("fk_marcas");
+        });
+
+        modelBuilder.Entity<REMITO>(entity =>
+        {
+            entity.HasKey(e => e.id_remito).HasName("pk_remito");
+
+            entity.ToTable("REMITO");
+
+            entity.Property(e => e.fecha_entrada).HasColumnType("datetime");
         });
 
         modelBuilder.Entity<TIPOS_DOC>(entity =>
@@ -252,7 +267,7 @@ public partial class db_cocherasContext : DbContext
         {
             entity.HasKey(e => e.id_vehiculo).HasName("pk_vehiculo");
 
-            entity.ToTable("VEHICULOS");
+            entity.ToTable("VEHICULOS", tb => tb.HasTrigger("check_patente_unique"));
 
             entity.Property(e => e.color)
                 .HasMaxLength(50)

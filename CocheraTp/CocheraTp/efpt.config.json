@@ -51,6 +51,10 @@
          "ObjectType": 0
       },
       {
+         "Name": "[dbo].[REMITO]",
+         "ObjectType": 0
+      },
+      {
          "Name": "[dbo].[TIPO_FACTURAS]",
          "ObjectType": 0
       },

@@ -2,7 +2,6 @@
 #nullable disable
 using System;
 using System.Collections.Generic;
-using System.Text.Json.Serialization;
 
 namespace CocheraTp.Models;
 
@@ -12,6 +11,5 @@ public partial class MARCA
 
     public string nombre_marca { get; set; }
 
-    [JsonIgnore]
     public virtual ICollection<MODELO> MODELOs { get; set; } = new List<MODELO>();
 }
