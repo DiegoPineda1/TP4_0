@@ -25,8 +25,15 @@ namespace CocheraTp.Repository.CarpetaRepositoryFactura.Implementacion
                     .ThenInclude(d => d.id_vehiculoNavigation)
                         .ThenInclude(v => v.id_tipo_vehiculoNavigation)
                 .Include(f => f.DETALLE_FACTURAs)
+                    .ThenInclude(d => d.id_vehiculoNavigation)
+                        .ThenInclude(v => v.id_modeloNavigation)
+                .Include(f => f.DETALLE_FACTURAs)
+                    .ThenInclude(d => d.id_lugarNavigation)
+                .Include(f => f.DETALLE_FACTURAs)
                     .ThenInclude(d => d.id_abonoNavigation)
                 .Include(f => f.id_clienteNavigation)
+                .Include(f => f.id_tipo_facturaNavigation)
+                .Include(f => f.id_usuarioNavigation)
                 .ToListAsync();
 
             return facturas;

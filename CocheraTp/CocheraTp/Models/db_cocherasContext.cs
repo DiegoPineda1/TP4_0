@@ -101,6 +101,9 @@ public partial class db_cocherasContext : DbContext
             entity.Property(e => e.descuento).HasColumnType("decimal(10, 2)");
             entity.Property(e => e.fecha_entrada).HasColumnType("datetime");
             entity.Property(e => e.fecha_salida).HasColumnType("datetime");
+            entity.Property(e => e.id_lugar)
+                .HasMaxLength(10)
+                .IsUnicode(false);
             entity.Property(e => e.precio).HasColumnType("decimal(10, 2)");
             entity.Property(e => e.recargo).HasColumnType("decimal(10, 2)");
 
@@ -174,9 +177,8 @@ public partial class db_cocherasContext : DbContext
 
             entity.ToTable("LUGARES");
 
-            entity.Property(e => e.nombre_lugar)
-                .IsRequired()
-                .HasMaxLength(5)
+            entity.Property(e => e.id_lugar)
+                .HasMaxLength(10)
                 .IsUnicode(false);
         });
 
@@ -213,6 +215,9 @@ public partial class db_cocherasContext : DbContext
             entity.ToTable("REMITO");
 
             entity.Property(e => e.fecha_entrada).HasColumnType("datetime");
+            entity.Property(e => e.id_lugar)
+                .HasMaxLength(10)
+                .IsUnicode(false);
         });
 
         modelBuilder.Entity<TIPOS_DOC>(entity =>
@@ -246,6 +251,7 @@ public partial class db_cocherasContext : DbContext
             entity.Property(e => e.descripcion)
                 .HasMaxLength(50)
                 .IsUnicode(false);
+            entity.Property(e => e.precio).HasColumnType("decimal(10, 2)");
         });
 
         modelBuilder.Entity<USUARIO>(entity =>

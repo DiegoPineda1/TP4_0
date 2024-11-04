@@ -11,5 +11,7 @@ public partial class TIPO_VEHICULO
 
     public string descripcion { get; set; }
 
+    public decimal? precio { get; set; }
+
     public virtual ICollection<VEHICULO> VEHICULOs { get; set; } = new List<VEHICULO>();
 }

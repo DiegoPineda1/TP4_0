@@ -11,7 +11,7 @@ public partial class REMITO
 
     public int? id_vehiculo { get; set; }
 
-    public int? id_lugar { get; set; }
+    public string id_lugar { get; set; }
 
     public DateTime? fecha_entrada { get; set; }
 }

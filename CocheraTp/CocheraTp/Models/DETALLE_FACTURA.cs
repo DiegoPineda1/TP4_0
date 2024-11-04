@@ -2,6 +2,7 @@
 #nullable disable
 using System;
 using System.Collections.Generic;
+using System.Text.Json.Serialization;
 
 namespace CocheraTp.Models;
 
@@ -17,7 +18,7 @@ public partial class DETALLE_FACTURA
 
     public int? id_vehiculo { get; set; }
 
-    public int? id_lugar { get; set; }
+    public string id_lugar { get; set; }
 
     public int? id_abono { get; set; }
 
@@ -27,11 +28,12 @@ public partial class DETALLE_FACTURA
 
     public decimal? recargo { get; set; }
 
+    [JsonIgnore]
     public virtual ABONO id_abonoNavigation { get; set; }
-
+    [JsonIgnore]
     public virtual FACTURA id_facturaNavigation { get; set; }
-
+    [JsonIgnore]
     public virtual LUGARE id_lugarNavigation { get; set; }
-
+    [JsonIgnore]
     public virtual VEHICULO id_vehiculoNavigation { get; set; }
 }
