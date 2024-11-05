@@ -11,5 +11,6 @@ namespace CocheraTp.Repository.CarpetaRepositoryRemito.Interfaces
     {
         Task<REMITO> GetRemito(int id);
         Task <bool> AddRemito(REMITO remito);
+        Task<List<REMITO>> GetAllRemito();
     }
 }

@@ -1,5 +1,6 @@
 ﻿using CocheraTp.Models;
 using CocheraTp.Repository.CarpetaRepositoryRemito.Interfaces;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -21,14 +22,14 @@ namespace CocheraTp.Repository.CarpetaRepositoryRemito.Implementacion
             return true;
         }
 
+        public async Task<List<REMITO>> GetAllRemito()
+        {
+            return await _context.REMITOs.ToListAsync();
+        }
+
         public async Task<REMITO> GetRemito(int id)
         {
-            var remito = await _context.REMITOs.FindAsync(id);
-            if(remito != null)
-            {
-                return remito;
-            }
-            return null;
+            return await _context.REMITOs.FindAsync(id);
         }
     }
 }

@@ -21,12 +21,27 @@ namespace ApiRemito.Controllers
         {
             try
             {
-                return await _remitoServicio.GetRemito(id);
+               
+
+                var remitos = await _remitoServicio.GetAllRemito();
+
+                var idExiste = remitos.Any(e => e.id_remito == id);
+                if (!idExiste)
+                {
+                    return Ok("Id no existe");
+                }
+               
+                var remito = await _remitoServicio.GetRemito(id);
+                if (remito != null)
+                {
+                    return Ok(remito);
+                }
+                return Ok(new {});
             }
             catch (Exception)
             {
 
-                return null;
+                return  BadRequest();
             }
         }
 
@@ -40,7 +55,7 @@ namespace ApiRemito.Controllers
                 {
                     return Ok(true);
                 }
-                return BadRequest();
+                return BadRequest(false);
             }
             catch (Exception)
             {
