@@ -1,12 +1,7 @@
 using CocheraTp.Models;
-using CocheraTp.Repository.CarpetaRepositoryCliente.Implemetacion;
-using CocheraTp.Repository.CarpetaRepositoryCliente.Interfaces;
-using CocheraTp.Repository.CarpetaRepositoryCliente.unitofworkClientes;
 using CocheraTp.Repository.CarpetaRepositoryTipoDocumento.Implementacion;
 using CocheraTp.Repository.CarpetaRepositoryTipoDocumento.Interfaces;
 using CocheraTp.Repository.CarpetaRepositoryTipoDocumento.UnitOfWorkTipoDoc;
-using CocheraTp.Repository.unit_of_work;
-using CocheraTp.Servicios.ClienteSevicio;
 using CocheraTp.Servicios.TiposDocServicio;
 using Microsoft.EntityFrameworkCore;
 

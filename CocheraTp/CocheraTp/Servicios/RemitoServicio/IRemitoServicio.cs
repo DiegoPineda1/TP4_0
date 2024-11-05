@@ -11,5 +11,6 @@ namespace CocheraTp.Servicios.RemitoServicio
     {
         Task<REMITO> GetRemito(int id);
         Task<bool> AddRemito(REMITO remito);
+        Task<List<REMITO>> GetAllRemito();
     }
 }

@@ -29,6 +29,11 @@ namespace CocheraTp.Servicios.RemitoServicio
             return false;
         }
 
+        public async Task<List<REMITO>> GetAllRemito()
+        {
+            return await _unitOfWorkRemito.RepostoryRemito.GetAllRemito();
+        }
+
         public async Task<REMITO> GetRemito(int id)
         {
             return await _unitOfWorkRemito.RepostoryRemito.GetRemito(id);
