@@ -21,14 +21,12 @@ namespace CocheraTp.Servicios.FacturaServicio
         public async Task<bool?> CreateFactura(FACTURA? f)
         {
             var agregado = await _unitOfWork.FacturaRepository.Create(f);
-            if (agregado)
+            if ((bool)agregado)
             {
                 await _unitOfWork.SaveChangesAsync();
             }
             return true;
         }
-
-
 
         public async Task<bool> DeleteFactura(int id)
         {

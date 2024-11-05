@@ -1,7 +1,11 @@
 using CocheraTp.Models;
+using CocheraTp.Repository.CarpetaRepositoryDetalleFactura.Implementacion;
+using CocheraTp.Repository.CarpetaRepositoryDetalleFactura.Interfaces;
+using CocheraTp.Repository.CarpetaRepositoryDetalleFactura.UnitOfWorkDetalleFactura;
 using CocheraTp.Repository.CarpetaRepositoryFactura.Implementacion;
 using CocheraTp.Repository.CarpetaRepositoryFactura.Interfaces;
 using CocheraTp.Repository.CarpetaRepositoryFactura.UnitOfWorkFactura;
+using CocheraTp.Servicios.DetalleFacturaServicio;
 using CocheraTp.Servicios.FacturaServicio;
 using Microsoft.EntityFrameworkCore;
 
@@ -14,6 +18,9 @@ builder.Services.AddDbContext<db_cocherasContext>(options =>
 builder.Services.AddScoped<IFacturaRepository, FacturaRepository>();
 builder.Services.AddScoped<IUnitOfWorkFactura, UnitOfWorkFactura>();
 builder.Services.AddScoped<IFacturaService, FacturaService>();
+builder.Services.AddScoped<IDetalleFacturaRepository, DetalleFacturaRepository>();
+builder.Services.AddScoped<IUnitOfWorkDetalleFactura, UnitOfWorkDetalleFactura>();
+builder.Services.AddScoped<IDetalleFacturaServicio, DetalleFacturaServicio>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

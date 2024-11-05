@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace CocheraTp.Repository.CarpetaRepositoryDetalleFactura.UnitOfWorkDetalleFactura
 {
-    public class UnitOfWorkDetalleFactura
+    public class UnitOfWorkDetalleFactura : IUnitOfWorkDetalleFactura
     {
         private readonly db_cocherasContext _context;
         public IDetalleFacturaRepository DetalleFacturaRepository { get; }

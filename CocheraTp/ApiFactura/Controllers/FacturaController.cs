@@ -69,18 +69,22 @@ namespace ApiFactura.Controllers
 
             var detalle = factura.DETALLE_FACTURAs.First();
 
+            detalle.id_factura = factura.id_factura;
+            detalle.fecha_entrada = DateTime.Now;
+            detalle.fecha_salida = DateTime.Now;
+
             switch (detalle.id_abono)
             {
                 case 1:
-                    detalle.precio = 100;
+                    detalle.precio = 1000;
                     detalle.descuento = 0;
                     break;
                 case 2:
-                    detalle.precio = 150;
+                    detalle.precio = 15000;
                     detalle.descuento = 0;
                     break;
                 case 3:
-                    detalle.precio = 200;
+                    detalle.precio = 40000;
                     detalle.descuento = 0.30m;
                     detalle.precio = detalle.precio * detalle.descuento;
                     break;
@@ -99,8 +103,22 @@ namespace ApiFactura.Controllers
             return BadRequest("Error al crear la factura.");
         }
 
+            //{
+            //"id_cliente": 4,
+            //"id_tipo_factura": 1,
+            //"id_forma_pago": 1,
+            //"id_usuario": 1,
+            //"detallE_FACTURAs": [
+            //{
+            //"id_vehiculo": 6,
+            //"id_lugar": "PB2",
+            //"id_abono": 2
+            //}
+            //]
+            //}
+
         [HttpPut]
-        public async Task<ActionResult<FACTURA>> UpdateFactura([FromBody] int idFacturaExistente, [FromBody] FACTURA facturaActualizada)
+        public async Task<ActionResult<FACTURA>> UpdateFactura([FromQuery] int idFacturaExistente, [FromBody] FACTURA facturaActualizada)
         {
             var facturaExistente = await _serviceF.GetFacturaById(idFacturaExistente);
             if (facturaExistente == null)

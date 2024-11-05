@@ -34,7 +34,9 @@ namespace CocheraTp.Repository.CarpetaRepositoryFactura.Implementacion
 
         public async Task<FACTURA?> GetById(int id)
         {
-            var f = await _context.FACTURAs.FindAsync(id);
+            var f = await _context.FACTURAs.Include(f => f.DETALLE_FACTURAs)
+                .Where(f => f.id_factura == id).FirstOrDefaultAsync();
+
             if (f != null)
                 return f;
             return null;
@@ -49,7 +51,7 @@ namespace CocheraTp.Repository.CarpetaRepositoryFactura.Implementacion
                 .FirstOrDefaultAsync();
         }
 
-        public async Task<bool> Create(FACTURA factura)
+        public async Task<bool?> Create(FACTURA factura)
         {
             if (await _context.FACTURAs.AddAsync(factura) != null)
                 return true;

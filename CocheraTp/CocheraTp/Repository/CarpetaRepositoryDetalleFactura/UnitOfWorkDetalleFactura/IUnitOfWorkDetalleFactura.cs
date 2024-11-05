@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace CocheraTp.Repository.CarpetaRepositoryDetalleFactura.UnitOfWorkDetalleFactura
 {
-    public interface IUnitOfWorkDetalleFactura
+    public interface IUnitOfWorkDetalleFactura : IDisposable
     {
         IDetalleFacturaRepository DetalleFacturaRepository { get; }
         Task<int> SaveChangesAsync();

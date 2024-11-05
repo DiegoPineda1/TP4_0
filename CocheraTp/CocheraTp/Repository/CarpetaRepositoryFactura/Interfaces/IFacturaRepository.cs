@@ -13,7 +13,7 @@ namespace CocheraTp.Repository.CarpetaRepositoryFactura.Interfaces
         Task<List<FACTURA?>> GetAll();
         Task<FACTURA?> GetById(int id);
         Task<FACTURA?> GetFacturaByPatente(string patente);
-        Task<bool> Create(FACTURA? factura);
+        Task<bool?> Create(FACTURA? factura);
         Task<bool> Update(int id, FACTURA DF);
         Task<bool> DeleteById(int id);
     }
