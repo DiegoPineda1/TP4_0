@@ -1,0 +1,6 @@
+@ApiFormaPago_HostAddress = http://localhost:5069
+
+GET {{ApiFormaPago_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

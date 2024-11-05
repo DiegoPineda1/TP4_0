@@ -1,78 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\",
+  "WorkspaceRootPath": "C:\\Users\\veron\\OneDrive\\Documentos\\Facultad\\Tecnicatura universitaria en Programacion\\Programacion II\\TP_4.0\\TP4_0\\CocheraTp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{46333C28-2B67-4173-81C4-DE91393ABFCD}|CocheraTp\\CocheraTp.csproj|c:\\users\\diego pineda\\desktop\\tp4_0\\cocheratp\\cocheratp\\servicios\\remitoservicio\\remitoservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{46333C28-2B67-4173-81C4-DE91393ABFCD}|CocheraTp\\CocheraTp.csproj|solutionrelative:cocheratp\\servicios\\remitoservicio\\remitoservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{46333C28-2B67-4173-81C4-DE91393ABFCD}|CocheraTp\\CocheraTp.csproj|c:\\users\\veron\\onedrive\\documentos\\facultad\\tecnicatura universitaria en programacion\\programacion ii\\tp_4.0\\tp4_0\\cocheratp\\cocheratp\\servicios\\formapagoservicio\\formapagoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46333C28-2B67-4173-81C4-DE91393ABFCD}|CocheraTp\\CocheraTp.csproj|solutionrelative:cocheratp\\servicios\\formapagoservicio\\formapagoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{46333C28-2B67-4173-81C4-DE91393ABFCD}|CocheraTp\\CocheraTp.csproj|c:\\users\\diego pineda\\desktop\\tp4_0\\cocheratp\\cocheratp\\repository\\carpetarepositoryremito\\implementacion\\repositoryremito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{46333C28-2B67-4173-81C4-DE91393ABFCD}|CocheraTp\\CocheraTp.csproj|solutionrelative:cocheratp\\repository\\carpetarepositoryremito\\implementacion\\repositoryremito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{46333C28-2B67-4173-81C4-DE91393ABFCD}|CocheraTp\\CocheraTp.csproj|c:\\users\\veron\\onedrive\\documentos\\facultad\\tecnicatura universitaria en programacion\\programacion ii\\tp_4.0\\tp4_0\\cocheratp\\cocheratp\\repository\\carpetarepositoryformapago\\unitofworkformapago\\unitofworkformapago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46333C28-2B67-4173-81C4-DE91393ABFCD}|CocheraTp\\CocheraTp.csproj|solutionrelative:cocheratp\\repository\\carpetarepositoryformapago\\unitofworkformapago\\unitofworkformapago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7FEAB20A-D891-47CF-8419-6540502A0CDC}|ApiRemito\\ApiRemito.csproj|c:\\users\\diego pineda\\desktop\\tp4_0\\cocheratp\\apiremito\\controllers\\remitocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7FEAB20A-D891-47CF-8419-6540502A0CDC}|ApiRemito\\ApiRemito.csproj|solutionrelative:apiremito\\controllers\\remitocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{46333C28-2B67-4173-81C4-DE91393ABFCD}|CocheraTp\\CocheraTp.csproj|c:\\users\\veron\\onedrive\\documentos\\facultad\\tecnicatura universitaria en programacion\\programacion ii\\tp_4.0\\tp4_0\\cocheratp\\cocheratp\\repository\\carpetarepositoryformapago\\unitofworkformapago\\iunitofworkformapago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46333C28-2B67-4173-81C4-DE91393ABFCD}|CocheraTp\\CocheraTp.csproj|solutionrelative:cocheratp\\repository\\carpetarepositoryformapago\\unitofworkformapago\\iunitofworkformapago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{46333C28-2B67-4173-81C4-DE91393ABFCD}|CocheraTp\\CocheraTp.csproj|c:\\users\\diego pineda\\desktop\\tp4_0\\cocheratp\\cocheratp\\servicios\\remitoservicio\\iremitoservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{46333C28-2B67-4173-81C4-DE91393ABFCD}|CocheraTp\\CocheraTp.csproj|solutionrelative:cocheratp\\servicios\\remitoservicio\\iremitoservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7FEAB20A-D891-47CF-8419-6540502A0CDC}|ApiRemito\\ApiRemito.csproj|c:\\users\\diego pineda\\desktop\\tp4_0\\cocheratp\\apiremito\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7FEAB20A-D891-47CF-8419-6540502A0CDC}|ApiRemito\\ApiRemito.csproj|solutionrelative:apiremito\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{46333C28-2B67-4173-81C4-DE91393ABFCD}|CocheraTp\\CocheraTp.csproj|c:\\users\\diego pineda\\desktop\\tp4_0\\cocheratp\\cocheratp\\repository\\carpetarepositoryremito\\unitofworkremito\\unitofworkremito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{46333C28-2B67-4173-81C4-DE91393ABFCD}|CocheraTp\\CocheraTp.csproj|solutionrelative:cocheratp\\repository\\carpetarepositoryremito\\unitofworkremito\\unitofworkremito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7FEAB20A-D891-47CF-8419-6540502A0CDC}|ApiRemito\\ApiRemito.csproj|c:\\users\\diego pineda\\desktop\\tp4_0\\cocheratp\\apiremito\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{7FEAB20A-D891-47CF-8419-6540502A0CDC}|ApiRemito\\ApiRemito.csproj|solutionrelative:apiremito\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F01C7ABD-A670-4DB6-84F7-F20F764AD274}|ApiClientes\\ApiClientes.csproj|c:\\users\\diego pineda\\desktop\\tp4_0\\cocheratp\\apiclientes\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{F01C7ABD-A670-4DB6-84F7-F20F764AD274}|ApiClientes\\ApiClientes.csproj|solutionrelative:apiclientes\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{46333C28-2B67-4173-81C4-DE91393ABFCD}|CocheraTp\\CocheraTp.csproj|c:\\users\\diego pineda\\desktop\\tp4_0\\cocheratp\\cocheratp\\repository\\carpetarepositoryremito\\unitofworkremito\\iunitofworkremito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{46333C28-2B67-4173-81C4-DE91393ABFCD}|CocheraTp\\CocheraTp.csproj|solutionrelative:cocheratp\\repository\\carpetarepositoryremito\\unitofworkremito\\iunitofworkremito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{46333C28-2B67-4173-81C4-DE91393ABFCD}|CocheraTp\\CocheraTp.csproj|c:\\users\\diego pineda\\desktop\\tp4_0\\cocheratp\\cocheratp\\repository\\carpetarepositoryremito\\interfaces\\irepostoryremito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{46333C28-2B67-4173-81C4-DE91393ABFCD}|CocheraTp\\CocheraTp.csproj|solutionrelative:cocheratp\\repository\\carpetarepositoryremito\\interfaces\\irepostoryremito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{46333C28-2B67-4173-81C4-DE91393ABFCD}|CocheraTp\\CocheraTp.csproj|c:\\users\\diego pineda\\desktop\\tp4_0\\cocheratp\\cocheratp\\models\\db_cocherascontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{46333C28-2B67-4173-81C4-DE91393ABFCD}|CocheraTp\\CocheraTp.csproj|c:\\users\\veron\\onedrive\\documentos\\facultad\\tecnicatura universitaria en programacion\\programacion ii\\tp_4.0\\tp4_0\\cocheratp\\cocheratp\\models\\db_cocherascontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{46333C28-2B67-4173-81C4-DE91393ABFCD}|CocheraTp\\CocheraTp.csproj|solutionrelative:cocheratp\\models\\db_cocherascontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{46333C28-2B67-4173-81C4-DE91393ABFCD}|CocheraTp\\CocheraTp.csproj|c:\\users\\diego pineda\\desktop\\tp4_0\\cocheratp\\cocheratp\\servicios\\condicionesivaservicio\\condicionesivaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{46333C28-2B67-4173-81C4-DE91393ABFCD}|CocheraTp\\CocheraTp.csproj|solutionrelative:cocheratp\\servicios\\condicionesivaservicio\\condicionesivaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{46333C28-2B67-4173-81C4-DE91393ABFCD}|CocheraTp\\CocheraTp.csproj|c:\\users\\veron\\onedrive\\documentos\\facultad\\tecnicatura universitaria en programacion\\programacion ii\\tp_4.0\\tp4_0\\cocheratp\\cocheratp\\repository\\carpetarepositoryformapago\\implementacion\\formapagorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46333C28-2B67-4173-81C4-DE91393ABFCD}|CocheraTp\\CocheraTp.csproj|solutionrelative:cocheratp\\repository\\carpetarepositoryformapago\\implementacion\\formapagorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C840AC3F-0FBE-451C-8DA1-1A5ED06B2B3D}|ApiTipoDoc\\ApiTipoDoc.csproj|c:\\users\\diego pineda\\desktop\\tp4_0\\cocheratp\\apitipodoc\\controllers\\tipodoccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C840AC3F-0FBE-451C-8DA1-1A5ED06B2B3D}|ApiTipoDoc\\ApiTipoDoc.csproj|solutionrelative:apitipodoc\\controllers\\tipodoccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{46333C28-2B67-4173-81C4-DE91393ABFCD}|CocheraTp\\CocheraTp.csproj|c:\\users\\veron\\onedrive\\documentos\\facultad\\tecnicatura universitaria en programacion\\programacion ii\\tp_4.0\\tp4_0\\cocheratp\\cocheratp\\repository\\carpetarepositoryformapago\\interfaces\\iformapagorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46333C28-2B67-4173-81C4-DE91393ABFCD}|CocheraTp\\CocheraTp.csproj|solutionrelative:cocheratp\\repository\\carpetarepositoryformapago\\interfaces\\iformapagorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E4442B55-9121-4525-B093-CC147945985E}|ApiCondicionesIVA\\ApiCondicionesIVA.csproj|c:\\users\\diego pineda\\desktop\\tp4_0\\cocheratp\\apicondicionesiva\\controllers\\condicionesivacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E4442B55-9121-4525-B093-CC147945985E}|ApiCondicionesIVA\\ApiCondicionesIVA.csproj|solutionrelative:apicondicionesiva\\controllers\\condicionesivacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E4442B55-9121-4525-B093-CC147945985E}|ApiCondicionesIVA\\ApiCondicionesIVA.csproj|c:\\users\\diego pineda\\desktop\\tp4_0\\cocheratp\\apicondicionesiva\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{E4442B55-9121-4525-B093-CC147945985E}|ApiCondicionesIVA\\ApiCondicionesIVA.csproj|solutionrelative:apicondicionesiva\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{46333C28-2B67-4173-81C4-DE91393ABFCD}|CocheraTp\\CocheraTp.csproj|c:\\users\\diego pineda\\desktop\\tp4_0\\cocheratp\\cocheratp\\repository\\carpetarepositorycondicioniva\\interfaces\\icondicionesivarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{46333C28-2B67-4173-81C4-DE91393ABFCD}|CocheraTp\\CocheraTp.csproj|solutionrelative:cocheratp\\repository\\carpetarepositorycondicioniva\\interfaces\\icondicionesivarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{46333C28-2B67-4173-81C4-DE91393ABFCD}|CocheraTp\\CocheraTp.csproj|c:\\users\\diego pineda\\desktop\\tp4_0\\cocheratp\\cocheratp\\repository\\carpetarepositorycondicioniva\\implementacion\\condicionesivarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{46333C28-2B67-4173-81C4-DE91393ABFCD}|CocheraTp\\CocheraTp.csproj|solutionrelative:cocheratp\\repository\\carpetarepositorycondicioniva\\implementacion\\condicionesivarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{46333C28-2B67-4173-81C4-DE91393ABFCD}|CocheraTp\\CocheraTp.csproj|c:\\users\\diego pineda\\desktop\\tp4_0\\cocheratp\\cocheratp\\repository\\carpetarepositorytipodocumento\\implementacion\\tipodocrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{46333C28-2B67-4173-81C4-DE91393ABFCD}|CocheraTp\\CocheraTp.csproj|solutionrelative:cocheratp\\repository\\carpetarepositorytipodocumento\\implementacion\\tipodocrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{46333C28-2B67-4173-81C4-DE91393ABFCD}|CocheraTp\\CocheraTp.csproj|c:\\users\\veron\\onedrive\\documentos\\facultad\\tecnicatura universitaria en programacion\\programacion ii\\tp_4.0\\tp4_0\\cocheratp\\cocheratp\\repository\\carpetarepositorytipofactura\\unitofworktipofac\\iunitofworktipofac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46333C28-2B67-4173-81C4-DE91393ABFCD}|CocheraTp\\CocheraTp.csproj|solutionrelative:cocheratp\\repository\\carpetarepositorytipofactura\\unitofworktipofac\\iunitofworktipofac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -82,19 +38,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Bookmark",
@@ -102,243 +50,96 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\ApiClientes\\appsettings.json",
-              "RelativeDocumentMoniker": "ApiClientes\\appsettings.json",
-              "ToolTip": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\ApiClientes\\appsettings.json",
-              "RelativeToolTip": "ApiClientes\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-03T20:19:14.075Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\ApiRemito\\appsettings.json",
-              "RelativeDocumentMoniker": "ApiRemito\\appsettings.json",
-              "ToolTip": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\ApiRemito\\appsettings.json",
-              "RelativeToolTip": "ApiRemito\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-03T20:16:29.526Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\ApiRemito\\Program.cs",
-              "RelativeDocumentMoniker": "ApiRemito\\Program.cs",
-              "ToolTip": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\ApiRemito\\Program.cs",
-              "RelativeToolTip": "ApiRemito\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T20:14:46.115Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "RemitoController.cs",
-              "DocumentMoniker": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\ApiRemito\\Controllers\\RemitoController.cs",
-              "RelativeDocumentMoniker": "ApiRemito\\Controllers\\RemitoController.cs",
-              "ToolTip": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\ApiRemito\\Controllers\\RemitoController.cs",
-              "RelativeToolTip": "ApiRemito\\Controllers\\RemitoController.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAIA9wCUAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T20:09:52.981Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "RemitoServicio.cs",
-              "DocumentMoniker": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\CocheraTp\\Servicios\\RemitoServicio\\RemitoServicio.cs",
-              "RelativeDocumentMoniker": "CocheraTp\\Servicios\\RemitoServicio\\RemitoServicio.cs",
-              "ToolTip": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\CocheraTp\\Servicios\\RemitoServicio\\RemitoServicio.cs",
-              "RelativeToolTip": "CocheraTp\\Servicios\\RemitoServicio\\RemitoServicio.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwCMAAAAFAAAAAAAAAA==",
+              "Title": "FormaPagoService.cs",
+              "DocumentMoniker": "C:\\Users\\veron\\OneDrive\\Documentos\\Facultad\\Tecnicatura universitaria en Programacion\\Programacion II\\TP_4.0\\TP4_0\\CocheraTp\\CocheraTp\\Servicios\\FormaPagoServicio\\FormaPagoService.cs",
+              "RelativeDocumentMoniker": "CocheraTp\\Servicios\\FormaPagoServicio\\FormaPagoService.cs",
+              "ToolTip": "C:\\Users\\veron\\OneDrive\\Documentos\\Facultad\\Tecnicatura universitaria en Programacion\\Programacion II\\TP_4.0\\TP4_0\\CocheraTp\\CocheraTp\\Servicios\\FormaPagoServicio\\FormaPagoService.cs",
+              "RelativeToolTip": "CocheraTp\\Servicios\\FormaPagoServicio\\FormaPagoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T20:06:49.468Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IRemitoServicio.cs",
-              "DocumentMoniker": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\CocheraTp\\Servicios\\RemitoServicio\\IRemitoServicio.cs",
-              "RelativeDocumentMoniker": "CocheraTp\\Servicios\\RemitoServicio\\IRemitoServicio.cs",
-              "ToolTip": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\CocheraTp\\Servicios\\RemitoServicio\\IRemitoServicio.cs",
-              "RelativeToolTip": "CocheraTp\\Servicios\\RemitoServicio\\IRemitoServicio.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T20:06:24.775Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UnitOfWorkRemito.cs",
-              "DocumentMoniker": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\CocheraTp\\Repository\\CarpetaRepositoryRemito\\UnitOfWorkRemito\\UnitOfWorkRemito.cs",
-              "RelativeDocumentMoniker": "CocheraTp\\Repository\\CarpetaRepositoryRemito\\UnitOfWorkRemito\\UnitOfWorkRemito.cs",
-              "ToolTip": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\CocheraTp\\Repository\\CarpetaRepositoryRemito\\UnitOfWorkRemito\\UnitOfWorkRemito.cs",
-              "RelativeToolTip": "CocheraTp\\Repository\\CarpetaRepositoryRemito\\UnitOfWorkRemito\\UnitOfWorkRemito.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T20:01:51.251Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IUnitOfWorkRemito.cs",
-              "DocumentMoniker": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\CocheraTp\\Repository\\CarpetaRepositoryRemito\\UnitOfWorkRemito\\IUnitOfWorkRemito.cs",
-              "RelativeDocumentMoniker": "CocheraTp\\Repository\\CarpetaRepositoryRemito\\UnitOfWorkRemito\\IUnitOfWorkRemito.cs",
-              "ToolTip": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\CocheraTp\\Repository\\CarpetaRepositoryRemito\\UnitOfWorkRemito\\IUnitOfWorkRemito.cs",
-              "RelativeToolTip": "CocheraTp\\Repository\\CarpetaRepositoryRemito\\UnitOfWorkRemito\\IUnitOfWorkRemito.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T20:01:16.099Z",
+              "WhenOpened": "2024-11-04T23:48:15.11Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "RepositoryRemito.cs",
-              "DocumentMoniker": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\CocheraTp\\Repository\\CarpetaRepositoryRemito\\Implementacion\\RepositoryRemito.cs",
-              "RelativeDocumentMoniker": "CocheraTp\\Repository\\CarpetaRepositoryRemito\\Implementacion\\RepositoryRemito.cs",
-              "ToolTip": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\CocheraTp\\Repository\\CarpetaRepositoryRemito\\Implementacion\\RepositoryRemito.cs",
-              "RelativeToolTip": "CocheraTp\\Repository\\CarpetaRepositoryRemito\\Implementacion\\RepositoryRemito.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAAIAAAAAAAAAA==",
+              "Title": "UnitOfWorkFormaPago.cs",
+              "DocumentMoniker": "C:\\Users\\veron\\OneDrive\\Documentos\\Facultad\\Tecnicatura universitaria en Programacion\\Programacion II\\TP_4.0\\TP4_0\\CocheraTp\\CocheraTp\\Repository\\CarpetaRepositoryFormaPago\\UnitOfWorkFormaPago\\UnitOfWorkFormaPago.cs",
+              "RelativeDocumentMoniker": "CocheraTp\\Repository\\CarpetaRepositoryFormaPago\\UnitOfWorkFormaPago\\UnitOfWorkFormaPago.cs",
+              "ToolTip": "C:\\Users\\veron\\OneDrive\\Documentos\\Facultad\\Tecnicatura universitaria en Programacion\\Programacion II\\TP_4.0\\TP4_0\\CocheraTp\\CocheraTp\\Repository\\CarpetaRepositoryFormaPago\\UnitOfWorkFormaPago\\UnitOfWorkFormaPago.cs",
+              "RelativeToolTip": "CocheraTp\\Repository\\CarpetaRepositoryFormaPago\\UnitOfWorkFormaPago\\UnitOfWorkFormaPago.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAkAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T19:54:52.788Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-04T23:41:33.513Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IRepostoryRemito.cs",
-              "DocumentMoniker": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\CocheraTp\\Repository\\CarpetaRepositoryRemito\\Interfaces\\IRepostoryRemito.cs",
-              "RelativeDocumentMoniker": "CocheraTp\\Repository\\CarpetaRepositoryRemito\\Interfaces\\IRepostoryRemito.cs",
-              "ToolTip": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\CocheraTp\\Repository\\CarpetaRepositoryRemito\\Interfaces\\IRepostoryRemito.cs",
-              "RelativeToolTip": "CocheraTp\\Repository\\CarpetaRepositoryRemito\\Interfaces\\IRepostoryRemito.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAtAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "IUnitOfWorkFormaPago.cs",
+              "DocumentMoniker": "C:\\Users\\veron\\OneDrive\\Documentos\\Facultad\\Tecnicatura universitaria en Programacion\\Programacion II\\TP_4.0\\TP4_0\\CocheraTp\\CocheraTp\\Repository\\CarpetaRepositoryFormaPago\\UnitOfWorkFormaPago\\IUnitOfWorkFormaPago.cs",
+              "RelativeDocumentMoniker": "CocheraTp\\Repository\\CarpetaRepositoryFormaPago\\UnitOfWorkFormaPago\\IUnitOfWorkFormaPago.cs",
+              "ToolTip": "C:\\Users\\veron\\OneDrive\\Documentos\\Facultad\\Tecnicatura universitaria en Programacion\\Programacion II\\TP_4.0\\TP4_0\\CocheraTp\\CocheraTp\\Repository\\CarpetaRepositoryFormaPago\\UnitOfWorkFormaPago\\IUnitOfWorkFormaPago.cs",
+              "RelativeToolTip": "CocheraTp\\Repository\\CarpetaRepositoryFormaPago\\UnitOfWorkFormaPago\\IUnitOfWorkFormaPago.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T19:52:55.23Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-04T23:41:20.379Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 3,
               "Title": "db_cocherasContext.cs",
-              "DocumentMoniker": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\CocheraTp\\Models\\db_cocherasContext.cs",
+              "DocumentMoniker": "C:\\Users\\veron\\OneDrive\\Documentos\\Facultad\\Tecnicatura universitaria en Programacion\\Programacion II\\TP_4.0\\TP4_0\\CocheraTp\\CocheraTp\\Models\\db_cocherasContext.cs",
               "RelativeDocumentMoniker": "CocheraTp\\Models\\db_cocherasContext.cs",
-              "ToolTip": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\CocheraTp\\Models\\db_cocherasContext.cs",
+              "ToolTip": "C:\\Users\\veron\\OneDrive\\Documentos\\Facultad\\Tecnicatura universitaria en Programacion\\Programacion II\\TP_4.0\\TP4_0\\CocheraTp\\CocheraTp\\Models\\db_cocherasContext.cs",
               "RelativeToolTip": "CocheraTp\\Models\\db_cocherasContext.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAA3wAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAA5wCAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T19:49:48.066Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-04T23:40:52.685Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\ApiCondicionesIVA\\appsettings.json",
-              "RelativeDocumentMoniker": "ApiCondicionesIVA\\appsettings.json",
-              "ToolTip": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\ApiCondicionesIVA\\appsettings.json",
-              "RelativeToolTip": "ApiCondicionesIVA\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-02T16:41:55.979Z"
+              "DocumentIndex": 5,
+              "Title": "IFormaPagoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\veron\\OneDrive\\Documentos\\Facultad\\Tecnicatura universitaria en Programacion\\Programacion II\\TP_4.0\\TP4_0\\CocheraTp\\CocheraTp\\Repository\\CarpetaRepositoryFormaPago\\Interfaces\\IFormaPagoRepository.cs",
+              "RelativeDocumentMoniker": "CocheraTp\\Repository\\CarpetaRepositoryFormaPago\\Interfaces\\IFormaPagoRepository.cs",
+              "ToolTip": "C:\\Users\\veron\\OneDrive\\Documentos\\Facultad\\Tecnicatura universitaria en Programacion\\Programacion II\\TP_4.0\\TP4_0\\CocheraTp\\CocheraTp\\Repository\\CarpetaRepositoryFormaPago\\Interfaces\\IFormaPagoRepository.cs",
+              "RelativeToolTip": "CocheraTp\\Repository\\CarpetaRepositoryFormaPago\\Interfaces\\IFormaPagoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T23:40:09.714Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "CondicionesIVAController.cs",
-              "DocumentMoniker": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\ApiCondicionesIVA\\Controllers\\CondicionesIVAController.cs",
-              "RelativeDocumentMoniker": "ApiCondicionesIVA\\Controllers\\CondicionesIVAController.cs",
-              "ToolTip": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\ApiCondicionesIVA\\Controllers\\CondicionesIVAController.cs",
-              "RelativeToolTip": "ApiCondicionesIVA\\Controllers\\CondicionesIVAController.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAACIAAAAJAAAA",
+              "DocumentIndex": 4,
+              "Title": "FormaPagoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\veron\\OneDrive\\Documentos\\Facultad\\Tecnicatura universitaria en Programacion\\Programacion II\\TP_4.0\\TP4_0\\CocheraTp\\CocheraTp\\Repository\\CarpetaRepositoryFormaPago\\Implementacion\\FormaPagoRepository.cs",
+              "RelativeDocumentMoniker": "CocheraTp\\Repository\\CarpetaRepositoryFormaPago\\Implementacion\\FormaPagoRepository.cs",
+              "ToolTip": "C:\\Users\\veron\\OneDrive\\Documentos\\Facultad\\Tecnicatura universitaria en Programacion\\Programacion II\\TP_4.0\\TP4_0\\CocheraTp\\CocheraTp\\Repository\\CarpetaRepositoryFormaPago\\Implementacion\\FormaPagoRepository.cs",
+              "RelativeToolTip": "CocheraTp\\Repository\\CarpetaRepositoryFormaPago\\Implementacion\\FormaPagoRepository.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAA4AAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T16:31:54.642Z"
+              "WhenOpened": "2024-11-04T23:40:07.121Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "TipoDocController.cs",
-              "DocumentMoniker": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\ApiTipoDoc\\Controllers\\TipoDocController.cs",
-              "RelativeDocumentMoniker": "ApiTipoDoc\\Controllers\\TipoDocController.cs",
-              "ToolTip": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\ApiTipoDoc\\Controllers\\TipoDocController.cs",
-              "RelativeToolTip": "ApiTipoDoc\\Controllers\\TipoDocController.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAgwBQAAAAJAAAA",
+              "DocumentIndex": 6,
+              "Title": "IUnitOfWorkTipoFac.cs",
+              "DocumentMoniker": "C:\\Users\\veron\\OneDrive\\Documentos\\Facultad\\Tecnicatura universitaria en Programacion\\Programacion II\\TP_4.0\\TP4_0\\CocheraTp\\CocheraTp\\Repository\\CarpetaRepositoryTipoFactura\\UnitOfWorkTipoFac\\IUnitOfWorkTipoFac.cs",
+              "RelativeDocumentMoniker": "CocheraTp\\Repository\\CarpetaRepositoryTipoFactura\\UnitOfWorkTipoFac\\IUnitOfWorkTipoFac.cs",
+              "ToolTip": "C:\\Users\\veron\\OneDrive\\Documentos\\Facultad\\Tecnicatura universitaria en Programacion\\Programacion II\\TP_4.0\\TP4_0\\CocheraTp\\CocheraTp\\Repository\\CarpetaRepositoryTipoFactura\\UnitOfWorkTipoFac\\IUnitOfWorkTipoFac.cs",
+              "RelativeToolTip": "CocheraTp\\Repository\\CarpetaRepositoryTipoFactura\\UnitOfWorkTipoFac\\IUnitOfWorkTipoFac.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T16:30:06.133Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "CondicionesIVAService.cs",
-              "DocumentMoniker": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\CocheraTp\\Servicios\\CondicionesIVAServicio\\CondicionesIVAService.cs",
-              "RelativeDocumentMoniker": "CocheraTp\\Servicios\\CondicionesIVAServicio\\CondicionesIVAService.cs",
-              "ToolTip": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\CocheraTp\\Servicios\\CondicionesIVAServicio\\CondicionesIVAService.cs",
-              "RelativeToolTip": "CocheraTp\\Servicios\\CondicionesIVAServicio\\CondicionesIVAService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T16:25:49.537Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "TipoDocRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\CocheraTp\\Repository\\CarpetaRepositoryTipoDocumento\\Implementacion\\TipoDocRepository.cs",
-              "RelativeDocumentMoniker": "CocheraTp\\Repository\\CarpetaRepositoryTipoDocumento\\Implementacion\\TipoDocRepository.cs",
-              "ToolTip": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\CocheraTp\\Repository\\CarpetaRepositoryTipoDocumento\\Implementacion\\TipoDocRepository.cs",
-              "RelativeToolTip": "CocheraTp\\Repository\\CarpetaRepositoryTipoDocumento\\Implementacion\\TipoDocRepository.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABEAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T16:22:16.911Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "CondicionesIVARepository.cs",
-              "DocumentMoniker": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\CocheraTp\\Repository\\CarpetaRepositoryCondicionIVA\\Implementacion\\CondicionesIVARepository.cs",
-              "RelativeDocumentMoniker": "CocheraTp\\Repository\\CarpetaRepositoryCondicionIVA\\Implementacion\\CondicionesIVARepository.cs",
-              "ToolTip": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\CocheraTp\\Repository\\CarpetaRepositoryCondicionIVA\\Implementacion\\CondicionesIVARepository.cs",
-              "RelativeToolTip": "CocheraTp\\Repository\\CarpetaRepositoryCondicionIVA\\Implementacion\\CondicionesIVARepository.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAAABQAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T16:18:11.521Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ICondicionesIVARepository.cs",
-              "DocumentMoniker": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\CocheraTp\\Repository\\CarpetaRepositoryCondicionIVA\\Interfaces\\ICondicionesIVARepository.cs",
-              "RelativeDocumentMoniker": "CocheraTp\\Repository\\CarpetaRepositoryCondicionIVA\\Interfaces\\ICondicionesIVARepository.cs",
-              "ToolTip": "C:\\Users\\Diego Pineda\\Desktop\\TP4_0\\CocheraTp\\CocheraTp\\Repository\\CarpetaRepositoryCondicionIVA\\Interfaces\\ICondicionesIVARepository.cs",
-              "RelativeToolTip": "CocheraTp\\Repository\\CarpetaRepositoryCondicionIVA\\Interfaces\\ICondicionesIVARepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T16:17:49.12Z"
+              "WhenOpened": "2024-11-04T22:18:16.841Z"
             }
           ]
         },
@@ -356,11 +157,23 @@
             },
             {
               "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }
