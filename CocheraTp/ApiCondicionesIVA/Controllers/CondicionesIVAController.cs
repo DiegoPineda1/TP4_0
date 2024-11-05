@@ -24,13 +24,13 @@ namespace ApiCondicionesIVA.Controllers
                 var condiciones = await _condicionesIVAService.GetAllCondiciones();
                 if (condiciones == null || condiciones.Count == 0)
                 {
-                    return NotFound("No se encontraron condiciones de IVA.");
+                    return BadRequest();
                 }
                 return Ok(condiciones);
             }
-            catch (Exception ex)
+            catch (Exception)
             {
-                return StatusCode(StatusCodes.Status500InternalServerError, $"Error al obtener las condiciones de IVA: {ex.Message}");
+                return BadRequest();
             }
         }
     }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CocheraTp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7c805f54ed908e76d206e11017c69b13a5d5d3dd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+df59b34ef5a048f9a2160979bac71f808c5c21e0")]
 [assembly: System.Reflection.AssemblyProductAttribute("CocheraTp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CocheraTp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

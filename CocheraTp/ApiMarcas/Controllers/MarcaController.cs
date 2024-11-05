@@ -26,62 +26,31 @@ namespace ApiMarcas.Controllers
                 var marcas = await _marcaService.GetAllMarcas();
                 if (marcas == null || !marcas.Any())
                 {
-                    return NotFound("La lista de marcas está vacía o no existe");
+                    return BadRequest();
                 }
                 return Ok(marcas);
             }
             catch (Exception)
             {
-                return StatusCode(StatusCodes.Status500InternalServerError, "Error al obtener la lista de marcas");
+                return BadRequest();
             }
         }
 
-        //[HttpGet("buscar")]
-        //public async Task<ActionResult<IEnumerable<MARCA>>> GetMarcasByNombre(string nombreMarca)
-        //{
-        //    try
-        //    {
-        //        if (string.IsNullOrWhiteSpace(nombreMarca))
-        //        {
-        //            return BadRequest("El nombre de la marca no puede estar vacío.");
-        //        }
-
-        //        var marcas = await _marcaService.GetAllByMarca(nombreMarca);
-        //        if (marcas == null || !marcas.Any())
-        //        {
-        //            return NotFound($"No se encontraron marcas que coincidan con '{nombreMarca}'");
-        //        }
-
-        //        return Ok(marcas);
-        //    }
-        //    catch (Exception)
-        //    {
-        //        return StatusCode(StatusCodes.Status500InternalServerError, "Error al buscar marcas por nombre");
-        //    }
-        //}
-
         [HttpPost]
-        public async Task<IActionResult> GuardarMarca([FromBody] MARCA marca)
+        public async Task<ActionResult<MARCA>> GuardarMarca(MARCA marca)
         {
             try
             {
-                if (marca == null || string.IsNullOrWhiteSpace(marca.nombre_marca))
-                {
-                    return BadRequest("La marca debe tener un nombre válido.");
-                }
-
                 var resultado = await _marcaService.GuardarMarca(marca);
-
                 if (resultado)
                 {
-                    return Ok("Marca guardada con éxito.");
+                    return Ok(true);
                 }
-
-                return StatusCode(StatusCodes.Status500InternalServerError, "Error al guardar la marca.");
+                return BadRequest(false);
             }
             catch (Exception)
             {
-                return StatusCode(StatusCodes.Status500InternalServerError, "Error al guardar la marca.");
+                return BadRequest();
             }
         }
     }

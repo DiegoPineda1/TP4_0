@@ -65,34 +65,6 @@ namespace ApiFactura.Controllers
                 return BadRequest("La factura debe tener al menos un detalle.");
             }
 
-            factura.fecha = DateTime.Now;
-
-            var detalle = factura.DETALLE_FACTURAs.First();
-
-            detalle.id_factura = factura.id_factura;
-            detalle.fecha_entrada = DateTime.Now;
-            detalle.fecha_salida = DateTime.Now;
-
-            switch (detalle.id_abono)
-            {
-                case 1:
-                    detalle.precio = 1000;
-                    detalle.descuento = 0;
-                    break;
-                case 2:
-                    detalle.precio = 15000;
-                    detalle.descuento = 0;
-                    break;
-                case 3:
-                    detalle.precio = 40000;
-                    detalle.descuento = 0.30m;
-                    detalle.precio = detalle.precio * detalle.descuento;
-                    break;
-                default:
-                    detalle.precio = detalle.precio;
-                    break;
-            }
-
             var facturaCreada = await _serviceF.CreateFactura(factura);
 
             if (facturaCreada != null)
@@ -117,7 +89,7 @@ namespace ApiFactura.Controllers
             //]
             //}
 
-        [HttpPut]
+[HttpPut]
         public async Task<ActionResult<FACTURA>> UpdateFactura([FromQuery] int idFacturaExistente, [FromBody] FACTURA facturaActualizada)
         {
             var facturaExistente = await _serviceF.GetFacturaById(idFacturaExistente);
