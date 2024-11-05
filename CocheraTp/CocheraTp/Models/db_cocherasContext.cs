@@ -173,11 +173,6 @@ public partial class db_cocherasContext : DbContext
             entity.HasKey(e => e.id_lugar).HasName("pk_lugar");
 
             entity.ToTable("LUGARES");
-
-            entity.Property(e => e.nombre_lugar)
-                .IsRequired()
-                .HasMaxLength(5)
-                .IsUnicode(false);
         });
 
         modelBuilder.Entity<MARCA>(entity =>
@@ -244,6 +239,10 @@ public partial class db_cocherasContext : DbContext
             entity.ToTable("TIPO_VEHICULOS");
 
             entity.Property(e => e.descripcion)
+                .HasMaxLength(50)
+                .IsUnicode(false);
+
+            entity.Property(e => e.precio)
                 .HasMaxLength(50)
                 .IsUnicode(false);
         });

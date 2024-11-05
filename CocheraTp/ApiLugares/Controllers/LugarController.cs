@@ -46,7 +46,7 @@ namespace ApiLugares.Controllers
 
         }
         [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateLugarEstado(int id)
+        public async Task<IActionResult> UpdateLugarEstado(string id)
         {
             try
             {

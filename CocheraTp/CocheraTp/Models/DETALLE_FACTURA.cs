@@ -18,7 +18,7 @@ public partial class DETALLE_FACTURA
     [Required(ErrorMessage = "El vehiculo es obligatorio.")]
     public int? id_vehiculo { get; set; }
     [Required(ErrorMessage = "Es necesario indicar el lugar ocupado.")]
-    public int? id_lugar { get; set; }
+    public string? id_lugar { get; set; }
     [Required(ErrorMessage = "Es necesario indicar el tipo de abono.")]
     public int? id_abono { get; set; }
     [Required(ErrorMessage = "Es necesario indicar el monto a abonar.")]
