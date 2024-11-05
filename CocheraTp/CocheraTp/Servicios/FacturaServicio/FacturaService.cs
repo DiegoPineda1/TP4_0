@@ -18,7 +18,7 @@ namespace CocheraTp.Servicios.FacturaServicio
             _unitOfWork = unitOfWork;
         }
 
-        public async Task<bool> CreateFactura(FACTURA f)
+        public async Task<bool?> CreateFactura(FACTURA? f)
         {
             var agregado = await _unitOfWork.FacturaRepository.Create(f);
             if (agregado)
@@ -27,6 +27,8 @@ namespace CocheraTp.Servicios.FacturaServicio
             }
             return true;
         }
+
+
 
         public async Task<bool> DeleteFactura(int id)
         {
@@ -47,6 +49,11 @@ namespace CocheraTp.Servicios.FacturaServicio
         public async Task<FACTURA?> GetFacturaById(int id)
         {
             return await _unitOfWork.FacturaRepository.GetById(id);
+        }
+
+        public async Task<FACTURA?> GetFacturaByPatente(string patente)
+        {
+            return await _unitOfWork.FacturaRepository.GetFacturaByPatente(patente);
         }
 
         public async Task<bool> UpdateFactura(int id, FACTURA facturaActualizada)

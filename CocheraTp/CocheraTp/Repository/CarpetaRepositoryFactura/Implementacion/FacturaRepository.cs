@@ -40,6 +40,15 @@ namespace CocheraTp.Repository.CarpetaRepositoryFactura.Implementacion
             return null;
         }
 
+        public async Task<FACTURA?> GetFacturaByPatente(string patente)
+        {
+            return await _context.FACTURAs
+                .Include(f => f.DETALLE_FACTURAs) 
+                    .ThenInclude(df => df.id_vehiculoNavigation)
+                .Where(f => f.DETALLE_FACTURAs.Any(df => df.id_vehiculoNavigation.patente == patente))
+                .FirstOrDefaultAsync();
+        }
+
         public async Task<bool> Create(FACTURA factura)
         {
             if (await _context.FACTURAs.AddAsync(factura) != null)

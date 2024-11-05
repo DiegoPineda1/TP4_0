@@ -12,6 +12,6 @@ namespace CocheraTp.Repository.CarpetaRepositoryLugar.Interfaces
     {
         Task<List<LUGARE>> GetAllLugares();
         Task<List<LUGARE>> GetLugaresDisponibles();
-        Task<bool> UpdateLugar(int id);
+        Task<bool> UpdateLugar(string id);
     }
 }

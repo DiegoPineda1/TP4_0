@@ -11,7 +11,8 @@ namespace CocheraTp.Servicios.FacturaServicio
     {
         Task<List<FACTURA?>> GetAllFacturas();
         Task<FACTURA?> GetFacturaById(int id);
-        Task<bool> CreateFactura(FACTURA factura);
+        Task<FACTURA?> GetFacturaByPatente(string patente);
+        Task<bool?> CreateFactura(FACTURA? factura);
         Task<bool> UpdateFactura(int id, FACTURA facturaAct);
         Task<bool> DeleteFactura(int id);
     }

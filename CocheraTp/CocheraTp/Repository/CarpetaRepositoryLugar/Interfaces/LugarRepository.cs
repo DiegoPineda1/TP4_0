@@ -27,7 +27,7 @@ namespace CocheraTp.Repository.CarpetaRepositoryLugar.Interfaces
         }
 
 
-        public async Task<bool> UpdateLugar(int id)
+        public async Task<bool> UpdateLugar(string id)
         {
             var lugar = await _context.LUGAREs.FindAsync(id);
 

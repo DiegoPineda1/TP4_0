@@ -26,7 +26,7 @@ namespace CocheraTp.Servicios.LugarServicio
             return await _unitOfWork.LugarRepository.GetLugaresDisponibles();
         }
 
-        public async Task<bool> UpdateLugar(int id)
+        public async Task<bool> UpdateLugar(string id)
         {
             var actualizado = await _unitOfWork.LugarRepository.UpdateLugar(id);
             if(actualizado)

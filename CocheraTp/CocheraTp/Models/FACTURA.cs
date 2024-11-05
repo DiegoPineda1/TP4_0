@@ -2,21 +2,22 @@
 #nullable disable
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace CocheraTp.Models;
 
 public partial class FACTURA
 {
+    [Key]
     public int id_factura { get; set; }
-
-    public DateTime? fecha { get; set; }
-
+    public DateTime? fecha { get; set; } = DateTime.Now;
+    [Required(ErrorMessage = "El cliente es obligatorio.")]
     public int? id_cliente { get; set; }
-
+    [Required(ErrorMessage = "El tipo de factura es obligatoria.")]
     public int? id_tipo_factura { get; set; }
-
+    [Required(ErrorMessage = "La forma de pago es obligatoria.")]
     public int? id_forma_pago { get; set; }
-
+    [Required(ErrorMessage = "El usuario es obligatorio.")]
     public int? id_usuario { get; set; }
 
     public virtual ICollection<DETALLE_FACTURA> DETALLE_FACTURAs { get; set; } = new List<DETALLE_FACTURA>();
