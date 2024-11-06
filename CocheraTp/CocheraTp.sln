@@ -38,10 +38,18 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiCondicionesIVA", "ApiCon
 		{46333C28-2B67-4173-81C4-DE91393ABFCD} = {46333C28-2B67-4173-81C4-DE91393ABFCD}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiRemito", "ApiRemito\ApiRemito.csproj", "{7FEAB20A-D891-47CF-8419-6540502A0CDC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiRemito", "ApiRemito\ApiRemito.csproj", "{7FEAB20A-D891-47CF-8419-6540502A0CDC}"
 	ProjectSection(ProjectDependencies) = postProject
 		{46333C28-2B67-4173-81C4-DE91393ABFCD} = {46333C28-2B67-4173-81C4-DE91393ABFCD}
 	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiFormaPago", "..\..\..\Documentos\Facultad\Tecnicatura universitaria en Programacion\Programacion II\TP_4.0\TP4_0\CocheraTp\ApiFormaPago\ApiFormaPago.csproj", "{398A0350-2C1C-47EC-B115-512550A6A62F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiUsuarios", "..\..\..\Documentos\Facultad\Tecnicatura universitaria en Programacion\Programacion II\TP_4.0\TP4_0\CocheraTp\ApiUsuarios\ApiUsuarios.csproj", "{7B13159C-69BC-4B43-94E5-238BEDE3F694}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiTipoFac", "..\..\..\Documentos\Facultad\Tecnicatura universitaria en Programacion\Programacion II\TP_4.0\TP4_0\CocheraTp\ApiTipoFac\ApiTipoFac.csproj", "{1097C93D-7992-4741-9F99-618049804209}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiTipoVehiculo", "..\..\..\Documentos\Facultad\Tecnicatura universitaria en Programacion\Programacion II\TP_4.0\TP4_0\CocheraTp\ApiTipoVehiculo\ApiTipoVehiculo.csproj", "{95BE3505-220C-4CB5-B92B-A1F214256DA5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +101,22 @@ Global
 		{7FEAB20A-D891-47CF-8419-6540502A0CDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7FEAB20A-D891-47CF-8419-6540502A0CDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7FEAB20A-D891-47CF-8419-6540502A0CDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{398A0350-2C1C-47EC-B115-512550A6A62F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{398A0350-2C1C-47EC-B115-512550A6A62F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{398A0350-2C1C-47EC-B115-512550A6A62F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{398A0350-2C1C-47EC-B115-512550A6A62F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B13159C-69BC-4B43-94E5-238BEDE3F694}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B13159C-69BC-4B43-94E5-238BEDE3F694}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B13159C-69BC-4B43-94E5-238BEDE3F694}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B13159C-69BC-4B43-94E5-238BEDE3F694}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1097C93D-7992-4741-9F99-618049804209}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1097C93D-7992-4741-9F99-618049804209}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1097C93D-7992-4741-9F99-618049804209}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1097C93D-7992-4741-9F99-618049804209}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95BE3505-220C-4CB5-B92B-A1F214256DA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95BE3505-220C-4CB5-B92B-A1F214256DA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95BE3505-220C-4CB5-B92B-A1F214256DA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95BE3505-220C-4CB5-B92B-A1F214256DA5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
