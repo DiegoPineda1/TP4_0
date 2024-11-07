@@ -72,3 +72,18 @@ C:\Users\Sofi\Desktop\CocheraNuevo\TP4_0\CocheraTp\CocheraTp\obj\Debug\net8.0\re
 C:\Users\Sofi\Desktop\CocheraNuevo\TP4_0\CocheraTp\CocheraTp\obj\Debug\net8.0\CocheraTp.pdb
 C:\Users\Sofi\Desktop\CocheraNuevo\TP4_0\CocheraTp\CocheraTp\obj\Debug\net8.0\CocheraTp.genruntimeconfig.cache
 C:\Users\Sofi\Desktop\CocheraNuevo\TP4_0\CocheraTp\CocheraTp\obj\Debug\net8.0\ref\CocheraTp.dll
+C:\Users\veron\OneDrive\Documentos\Facultad\Tecnicatura universitaria en Programacion\Programacion II\TPI_API_COCHERA\TP4_0\CocheraTp\CocheraTp\bin\Debug\net8.0\CocheraTp.deps.json
+C:\Users\veron\OneDrive\Documentos\Facultad\Tecnicatura universitaria en Programacion\Programacion II\TPI_API_COCHERA\TP4_0\CocheraTp\CocheraTp\bin\Debug\net8.0\CocheraTp.runtimeconfig.json
+C:\Users\veron\OneDrive\Documentos\Facultad\Tecnicatura universitaria en Programacion\Programacion II\TPI_API_COCHERA\TP4_0\CocheraTp\CocheraTp\bin\Debug\net8.0\CocheraTp.dll
+C:\Users\veron\OneDrive\Documentos\Facultad\Tecnicatura universitaria en Programacion\Programacion II\TPI_API_COCHERA\TP4_0\CocheraTp\CocheraTp\bin\Debug\net8.0\CocheraTp.pdb
+C:\Users\veron\OneDrive\Documentos\Facultad\Tecnicatura universitaria en Programacion\Programacion II\TPI_API_COCHERA\TP4_0\CocheraTp\CocheraTp\obj\Debug\net8.0\CocheraTp.csproj.AssemblyReference.cache
+C:\Users\veron\OneDrive\Documentos\Facultad\Tecnicatura universitaria en Programacion\Programacion II\TPI_API_COCHERA\TP4_0\CocheraTp\CocheraTp\obj\Debug\net8.0\CocheraTp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\veron\OneDrive\Documentos\Facultad\Tecnicatura universitaria en Programacion\Programacion II\TPI_API_COCHERA\TP4_0\CocheraTp\CocheraTp\obj\Debug\net8.0\CocheraTp.AssemblyInfoInputs.cache
+C:\Users\veron\OneDrive\Documentos\Facultad\Tecnicatura universitaria en Programacion\Programacion II\TPI_API_COCHERA\TP4_0\CocheraTp\CocheraTp\obj\Debug\net8.0\CocheraTp.AssemblyInfo.cs
+C:\Users\veron\OneDrive\Documentos\Facultad\Tecnicatura universitaria en Programacion\Programacion II\TPI_API_COCHERA\TP4_0\CocheraTp\CocheraTp\obj\Debug\net8.0\CocheraTp.csproj.CoreCompileInputs.cache
+C:\Users\veron\OneDrive\Documentos\Facultad\Tecnicatura universitaria en Programacion\Programacion II\TPI_API_COCHERA\TP4_0\CocheraTp\CocheraTp\obj\Debug\net8.0\CocheraTp.sourcelink.json
+C:\Users\veron\OneDrive\Documentos\Facultad\Tecnicatura universitaria en Programacion\Programacion II\TPI_API_COCHERA\TP4_0\CocheraTp\CocheraTp\obj\Debug\net8.0\CocheraTp.dll
+C:\Users\veron\OneDrive\Documentos\Facultad\Tecnicatura universitaria en Programacion\Programacion II\TPI_API_COCHERA\TP4_0\CocheraTp\CocheraTp\obj\Debug\net8.0\refint\CocheraTp.dll
+C:\Users\veron\OneDrive\Documentos\Facultad\Tecnicatura universitaria en Programacion\Programacion II\TPI_API_COCHERA\TP4_0\CocheraTp\CocheraTp\obj\Debug\net8.0\CocheraTp.pdb
+C:\Users\veron\OneDrive\Documentos\Facultad\Tecnicatura universitaria en Programacion\Programacion II\TPI_API_COCHERA\TP4_0\CocheraTp\CocheraTp\obj\Debug\net8.0\CocheraTp.genruntimeconfig.cache
+C:\Users\veron\OneDrive\Documentos\Facultad\Tecnicatura universitaria en Programacion\Programacion II\TPI_API_COCHERA\TP4_0\CocheraTp\CocheraTp\obj\Debug\net8.0\ref\CocheraTp.dll

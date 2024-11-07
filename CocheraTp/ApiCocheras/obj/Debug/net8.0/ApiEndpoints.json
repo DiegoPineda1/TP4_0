@@ -1,0 +1,1134 @@
+[
+  {
+    "ContainingType": "ApiAbonos.Controllers.AbonoController",
+    "Method": "GetAbonos",
+    "RelativePath": "api/Abono",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[CocheraTp.Models.ABONO, CocheraTp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiFactura.Controllers.ClienteController",
+    "Method": "GetClientesALL",
+    "RelativePath": "api/Cliente",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[CocheraTp.Repository.CarpetaRepositoryCliente.DTOs.ClienteDtoOut, CocheraTp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiFactura.Controllers.ClienteController",
+    "Method": "PostCliente",
+    "RelativePath": "api/Cliente",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cliente",
+        "Type": "CocheraTp.Models.CLIENTE",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiFactura.Controllers.ClienteController",
+    "Method": "GetClienteID",
+    "RelativePath": "api/Cliente/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CocheraTp.Repository.CarpetaRepositoryCliente.DTOs.ClienteDtoOut",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiFactura.Controllers.ClienteController",
+    "Method": "PutCliente",
+    "RelativePath": "api/Cliente/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "cliente",
+        "Type": "CocheraTp.Models.CLIENTE",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiFactura.Controllers.ClienteController",
+    "Method": "DeleteCliente",
+    "RelativePath": "api/Cliente/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiCondicionesIVA.Controllers.CondicionesIVAController",
+    "Method": "GetAllCondiciones",
+    "RelativePath": "api/CondicionesIVA",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[CocheraTp.Models.IVA_CONDICIONE, CocheraTp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiFactura.Controllers.DetalleFacturaController",
+    "Method": "CreateFactura",
+    "RelativePath": "api/DetalleFactura",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "factura",
+        "Type": "CocheraTp.Models.DETALLE_FACTURA",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CocheraTp.Models.DETALLE_FACTURA",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiFactura.Controllers.DetalleFacturaController",
+    "Method": "UpdateFactura",
+    "RelativePath": "api/DetalleFactura",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "id_detalle_factura",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "fecha_entrada",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "fecha_salida",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "id_factura",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "id_vehiculo",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "id_lugar",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "id_abono",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "precio",
+        "Type": "System.Nullable\u00601[[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "descuento",
+        "Type": "System.Nullable\u00601[[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "recargo",
+        "Type": "System.Nullable\u00601[[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "id_abonoNavigation.id_abono",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "id_abonoNavigation.descripcion",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "id_abonoNavigation.precio",
+        "Type": "System.Nullable\u00601[[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "id_abonoNavigation.DETALLE_FACTURAs",
+        "Type": "System.Collections.Generic.ICollection\u00601[[CocheraTp.Models.DETALLE_FACTURA, CocheraTp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "id_facturaNavigation.id_factura",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "id_facturaNavigation.fecha",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "id_facturaNavigation.id_cliente",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "id_facturaNavigation.id_tipo_factura",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "id_facturaNavigation.id_forma_pago",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "id_facturaNavigation.id_usuario",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "id_facturaNavigation.DETALLE_FACTURAs",
+        "Type": "System.Collections.Generic.ICollection\u00601[[CocheraTp.Models.DETALLE_FACTURA, CocheraTp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "id_facturaNavigation.id_clienteNavigation.id_cliente",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "id_facturaNavigation.id_clienteNavigation.nombre",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "id_facturaNavigation.id_clienteNavigation.apellido",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "id_facturaNavigation.id_clienteNavigation.id_tipo_doc",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "id_facturaNavigation.id_clienteNavigation.nro_documento",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "id_facturaNavigation.id_clienteNavigation.direccion",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "id_facturaNavigation.id_clienteNavigation.telefono",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "id_facturaNavigation.id_clienteNavigation.e_mail",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "id_facturaNavigation.id_clienteNavigation.id_iva_condicion",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "id_facturaNavigation.id_clienteNavigation.FACTURAs",
+        "Type": "System.Collections.Generic.ICollection\u00601[[CocheraTp.Models.FACTURA, CocheraTp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "id_facturaNavigation.id_clienteNavigation.id_iva_condicionNavigation.id_iva_condicion",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "id_facturaNavigation.id_clienteNavigation.id_iva_condicionNavigation.descripcion",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "id_facturaNavigation.id_clienteNavigation.id_iva_condicionNavigation.CLIENTEs",
+        "Type": "System.Collections.Generic.ICollection\u00601[[CocheraTp.Models.CLIENTE, CocheraTp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "id_facturaNavigation.id_clienteNavigation.id_tipo_docNavigation.id_tipo_doc",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "id_facturaNavigation.id_clienteNavigation.id_tipo_docNavigation.descripcion",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "id_facturaNavigation.id_clienteNavigation.id_tipo_docNavigation.CLIENTEs",
+        "Type": "System.Collections.Generic.ICollection\u00601[[CocheraTp.Models.CLIENTE, CocheraTp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "id_facturaNavigation.id_forma_pagoNavigation.id_forma_pago",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "id_facturaNavigation.id_forma_pagoNavigation.descripcion",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "id_facturaNavigation.id_forma_pagoNavigation.FACTURAs",
+        "Type": "System.Collections.Generic.ICollection\u00601[[CocheraTp.Models.FACTURA, CocheraTp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "id_facturaNavigation.id_tipo_facturaNavigation.id_tipo_factura",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "id_facturaNavigation.id_tipo_facturaNavigation.descripcion",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "id_facturaNavigation.id_tipo_facturaNavigation.FACTURAs",
+        "Type": "System.Collections.Generic.ICollection\u00601[[CocheraTp.Models.FACTURA, CocheraTp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "id_facturaNavigation.id_usuarioNavigation.id_usuario",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "id_facturaNavigation.id_usuarioNavigation.usuario1",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "id_facturaNavigation.id_usuarioNavigation.contrasenia",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "id_facturaNavigation.id_usuarioNavigation.FACTURAs",
+        "Type": "System.Collections.Generic.ICollection\u00601[[CocheraTp.Models.FACTURA, CocheraTp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "id_lugarNavigation.id_lugar",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "id_lugarNavigation.esta_ocupado",
+        "Type": "System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "id_lugarNavigation.DETALLE_FACTURAs",
+        "Type": "System.Collections.Generic.ICollection\u00601[[CocheraTp.Models.DETALLE_FACTURA, CocheraTp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "id_vehiculoNavigation.id_vehiculo",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "id_vehiculoNavigation.patente",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "id_vehiculoNavigation.color",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "id_vehiculoNavigation.id_tipo_vehiculo",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "id_vehiculoNavigation.id_modelo",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "id_vehiculoNavigation.DETALLE_FACTURAs",
+        "Type": "System.Collections.Generic.ICollection\u00601[[CocheraTp.Models.DETALLE_FACTURA, CocheraTp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "id_vehiculoNavigation.id_modeloNavigation.id_modelo",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "id_vehiculoNavigation.id_modeloNavigation.descripcion",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "id_vehiculoNavigation.id_modeloNavigation.id_marca",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "id_vehiculoNavigation.id_modeloNavigation.VEHICULOs",
+        "Type": "System.Collections.Generic.ICollection\u00601[[CocheraTp.Models.VEHICULO, CocheraTp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "id_vehiculoNavigation.id_modeloNavigation.id_marcaNavigation.id_marca",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "id_vehiculoNavigation.id_modeloNavigation.id_marcaNavigation.nombre_marca",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "id_vehiculoNavigation.id_modeloNavigation.id_marcaNavigation.MODELOs",
+        "Type": "System.Collections.Generic.ICollection\u00601[[CocheraTp.Models.MODELO, CocheraTp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "id_vehiculoNavigation.id_tipo_vehiculoNavigation.id_tipo_vehiculo",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "id_vehiculoNavigation.id_tipo_vehiculoNavigation.precio",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "id_vehiculoNavigation.id_tipo_vehiculoNavigation.descripcion",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "id_vehiculoNavigation.id_tipo_vehiculoNavigation.VEHICULOs",
+        "Type": "System.Collections.Generic.ICollection\u00601[[CocheraTp.Models.VEHICULO, CocheraTp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CocheraTp.Models.DETALLE_FACTURA",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiFactura.Controllers.DetalleFacturaController",
+    "Method": "DeleteFactura",
+    "RelativePath": "api/DetalleFactura",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CocheraTp.Models.DETALLE_FACTURA",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiFactura.Controllers.FacturaController",
+    "Method": "GetFacturas",
+    "RelativePath": "api/Factura",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[CocheraTp.Models.FACTURA, CocheraTp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiFactura.Controllers.FacturaController",
+    "Method": "CreateFactura",
+    "RelativePath": "api/Factura",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "factura",
+        "Type": "CocheraTp.Models.FACTURA",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CocheraTp.Models.FACTURA",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiFactura.Controllers.FacturaController",
+    "Method": "UpdateFactura",
+    "RelativePath": "api/Factura",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idFacturaExistente",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "facturaActualizada",
+        "Type": "CocheraTp.Models.FACTURA",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CocheraTp.Models.FACTURA",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiFactura.Controllers.FacturaController",
+    "Method": "DeleteFactura",
+    "RelativePath": "api/Factura",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CocheraTp.Models.FACTURA",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiFactura.Controllers.FacturaController",
+    "Method": "GetFacturaByID",
+    "RelativePath": "api/Factura/By ID",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CocheraTp.Models.FACTURA",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiFactura.Controllers.FacturaController",
+    "Method": "GetFacturaByPatente",
+    "RelativePath": "api/Factura/by-patente/{patente}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "patente",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CocheraTp.Models.FACTURA",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiCocheras.Controllers.FormaPagoController",
+    "Method": "GetAllFormaPago",
+    "RelativePath": "api/FormaPago",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[CocheraTp.Models.FORMAS_DE_PAGO, CocheraTp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiLugares.Controllers.LugarController",
+    "Method": "GetAll",
+    "RelativePath": "api/Lugar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[CocheraTp.Models.LUGARE, CocheraTp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiLugares.Controllers.LugarController",
+    "Method": "UpdateLugarEstado",
+    "RelativePath": "api/Lugar/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiLugares.Controllers.LugarController",
+    "Method": "GetLugaresDisponibles",
+    "RelativePath": "api/Lugar/disponibles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[CocheraTp.Models.LUGARE, CocheraTp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiMarcas.Controllers.MarcaController",
+    "Method": "GetALLMarcas",
+    "RelativePath": "api/Marca",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[CocheraTp.Models.MARCA, CocheraTp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiMarcas.Controllers.MarcaController",
+    "Method": "GuardarMarca",
+    "RelativePath": "api/Marca",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "marca",
+        "Type": "CocheraTp.Models.MARCA",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CocheraTp.Models.MARCA",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiModelos.Controllers.ModeloController",
+    "Method": "GetAllModelos",
+    "RelativePath": "api/Modelo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[CocheraTp.Models.MODELO, CocheraTp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiModelos.Controllers.ModeloController",
+    "Method": "GuardarModelo",
+    "RelativePath": "api/Modelo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelo",
+        "Type": "CocheraTp.Models.MODELO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiModelos.Controllers.ModeloController",
+    "Method": "GetModelosByMarca",
+    "RelativePath": "api/Modelo/buscar/{idMarca}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idMarca",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[CocheraTp.Models.MODELO, CocheraTp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiRemito.Controllers.RemitoController",
+    "Method": "AddRemito",
+    "RelativePath": "api/Remito",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "remito",
+        "Type": "CocheraTp.Models.REMITO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CocheraTp.Models.REMITO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiRemito.Controllers.RemitoController",
+    "Method": "GetRemito",
+    "RelativePath": "api/Remito/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CocheraTp.Models.REMITO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiTipoDoc.Controllers.TipoDocController",
+    "Method": "GetAllTiposDocumento",
+    "RelativePath": "api/TipoDoc",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[CocheraTp.Models.TIPOS_DOC, CocheraTp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiCocheras.Controllers.TipoFacturaController",
+    "Method": "GetAllTipoFactura",
+    "RelativePath": "api/TipoFactura",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[CocheraTp.Models.TIPO_FACTURA, CocheraTp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiCocheras.Controllers.TipoVehiculoController",
+    "Method": "GetAllTipoVehiculo",
+    "RelativePath": "api/TipoVehiculo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[CocheraTp.Models.TIPO_VEHICULO, CocheraTp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiCocheras.Controllers.UsuarioController",
+    "Method": "GetAllUsuario",
+    "RelativePath": "api/Usuario",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[CocheraTp.Models.USUARIO, CocheraTp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiVehiculo.Controllers.VehiculoController",
+    "Method": "GetVehiculos",
+    "RelativePath": "api/Vehiculo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[CocheraTp.Models.VEHICULO, CocheraTp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiVehiculo.Controllers.VehiculoController",
+    "Method": "PostVehiculo",
+    "RelativePath": "api/Vehiculo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vehiculo",
+        "Type": "CocheraTp.Models.VEHICULO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CocheraTp.Models.VEHICULO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiVehiculo.Controllers.VehiculoController",
+    "Method": "GetVehiculo",
+    "RelativePath": "api/Vehiculo/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CocheraTp.Models.VEHICULO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiVehiculo.Controllers.VehiculoController",
+    "Method": "PutVehiculo",
+    "RelativePath": "api/Vehiculo/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "vehiculo",
+        "Type": "CocheraTp.Models.VEHICULO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiVehiculo.Controllers.VehiculoController",
+    "Method": "DeleteVehiculo",
+    "RelativePath": "api/Vehiculo/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
