@@ -18,6 +18,11 @@ namespace CocheraTp.Repository.CarpetaRepositoryRemito.Implementacion
         }
         public async Task<bool> AddRemito(REMITO remito)
         {
+            var patenteExiste = await _context.VEHICULOs.AnyAsync(x => x.id_vehiculo == remito.id_vehiculo);
+            if (!patenteExiste)
+            {
+                return false;
+            }
             await _context.REMITOs.AddAsync(remito);
             return true;
         }

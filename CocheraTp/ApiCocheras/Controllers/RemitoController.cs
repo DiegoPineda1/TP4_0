@@ -36,7 +36,7 @@ namespace ApiRemito.Controllers
                 {
                     return Ok(remito);
                 }
-                return Ok(new {});
+                return Ok(false);
             }
             catch (Exception)
             {

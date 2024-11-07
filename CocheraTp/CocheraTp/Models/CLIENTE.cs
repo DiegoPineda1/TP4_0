@@ -2,6 +2,7 @@
 #nullable disable
 using System;
 using System.Collections.Generic;
+using System.Text.Json.Serialization;
 
 namespace CocheraTp.Models;
 
@@ -24,10 +25,10 @@ public partial class CLIENTE
     public string e_mail { get; set; }
 
     public int? id_iva_condicion { get; set; }
-
+    [JsonIgnore]
     public virtual ICollection<FACTURA> FACTURAs { get; set; } = new List<FACTURA>();
-
+    [JsonIgnore]
     public virtual IVA_CONDICIONE id_iva_condicionNavigation { get; set; }
-
+    [JsonIgnore]
     public virtual TIPOS_DOC id_tipo_docNavigation { get; set; }
 }
