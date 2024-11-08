@@ -9,6 +9,6 @@ namespace CocheraTp.Repository.CarpetaRepositoryTipoVehiculo.Interface
 {
     public interface ITipoVehiculoRepository
     {
-        Task<List<TIPO_VEHICULO>> GetAllTipoVehiculo();
+        Task<List<TIPOS_VEHICULO>> GetAllTipoVehiculo();
     }
 }

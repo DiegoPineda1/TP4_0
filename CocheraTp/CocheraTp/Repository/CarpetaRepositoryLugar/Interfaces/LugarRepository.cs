@@ -21,28 +21,28 @@ namespace CocheraTp.Repository.CarpetaRepositoryLugar.Interfaces
 
         }
 
-        public async Task<List<LUGARE>> GetLugaresDisponibles()
-        {
-            return await _context.LUGAREs.Where(l => l.esta_ocupado == false).ToListAsync();
-        }
+        //public async Task<List<LUGARE>> GetLugaresDisponibles()
+        //{
+        //    return await _context.LUGAREs.Where(l => l.esta_ocupado == false).ToListAsync();
+        //}
 
 
-        public async Task<bool> UpdateLugar(string id)
-        {
-            var lugar = await _context.LUGAREs.FindAsync(id);
+        //public async Task<bool> UpdateLugar(string id)
+        //{
+        //    var lugar = await _context.LUGAREs.FindAsync(id);
 
-            if(lugar.esta_ocupado == true)
-            {
-                lugar.esta_ocupado = false;
-                return true;
-            }
-            else
-            {
-                lugar.esta_ocupado = true;
-                return true;
-            }
+        //    if(lugar.esta_ocupado == true)
+        //    {
+        //        lugar.esta_ocupado = false;
+        //        return true;
+        //    }
+        //    else
+        //    {
+        //        lugar.esta_ocupado = true;
+        //        return true;
+        //    }
             
-        }
+        //}
 
     }
 }

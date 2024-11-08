@@ -11,7 +11,7 @@ namespace CocheraTp.Repository.CarpetaRepositoryCliente.Interfaces
     public interface IClienteRepository
     {
         Task<List<ClienteDtoOut>> GetAllClientesDto();
-        Task<ClienteDtoOut> GetClienteByIdDto(int id);
+        Task<ClienteDtoOut> GetClienteByIdDto(string documento);
         Task<CLIENTE> GetClienteById(int id);
         Task<bool> CreateCliente(CLIENTE cliente);
         Task<bool> UpdateCliente(int id, CLIENTE clienteActualizado);

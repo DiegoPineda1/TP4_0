@@ -45,9 +45,9 @@ namespace CocheraTp.Servicios.ClienteSevicio
             return await _unitOfWork.ClienteRepository.GetClienteById(id);
         }
 
-        public async Task<ClienteDtoOut> GetClienteByIdDto(int id)
+        public async Task<ClienteDtoOut> GetClienteByIdDto(string documento)
         {
-            return await _unitOfWork.ClienteRepository.GetClienteByIdDto(id);
+            return await _unitOfWork.ClienteRepository.GetClienteByIdDto(documento);
         }
         public async Task<bool> UpdateCliente(int id, CLIENTE clienteActualizado)
         {

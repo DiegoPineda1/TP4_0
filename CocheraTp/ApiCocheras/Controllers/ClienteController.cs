@@ -37,16 +37,16 @@ namespace ApiFactura.Controllers
             }
         }
 
-        [HttpGet("{id}")]
-        public async Task<ActionResult<ClienteDtoOut>> GetClienteID(int id)
+        [HttpGet("clientes/{documento}")]
+        public async Task<ActionResult<ClienteDtoOut>> GetClienteID(string documento)
         {
             try
             {
-                if (id <= 0)
+                if (string.IsNullOrEmpty(documento))
                 {
-                    return BadRequest("El ID no puede ser menor o igual a 0");
+                    return BadRequest("El documento no puede ser nulo o vacío");
                 }
-                var cliente = await _clienteServicios.GetClienteByIdDto(id);
+                var cliente = await _clienteServicios.GetClienteByIdDto(documento);
                 if (cliente == null)
                 {
                     return NotFound("El cliente no existe");
@@ -108,11 +108,15 @@ namespace ApiFactura.Controllers
         {
             try
             {
-                if (id <= 0)
+                if (id <= 0 )
                 {
                     return BadRequest("El ID no puede ser menor o igual a 0");
                 }
-                var cliente = await _clienteServicios.GetClienteByIdDto(id);
+                if(id > int.MaxValue)
+                {
+                    return BadRequest("No puede ser un numero de esa magnitud");
+                }
+                var cliente = await _clienteServicios.GetClienteById(id);
                 if (cliente == null)
                 {
                     return NotFound("El cliente no existe");
@@ -133,7 +137,7 @@ namespace ApiFactura.Controllers
                    !string.IsNullOrEmpty(cliente.apellido) &&
                    !string.IsNullOrEmpty(cliente.nro_documento) &&
                    !string.IsNullOrEmpty(cliente.telefono) &&
-                   !string.IsNullOrEmpty(cliente.e_mail);
+                   !string.IsNullOrEmpty(cliente.email);
         }
     }
 }

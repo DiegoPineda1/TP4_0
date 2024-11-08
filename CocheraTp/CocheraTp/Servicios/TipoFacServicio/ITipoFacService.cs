@@ -9,6 +9,6 @@ namespace CocheraTp.Servicios.TipoFacServicio
 {
     public interface ITipoFacService
     {
-        Task<List<TIPO_FACTURA>> GetAllTipoFactura();
+        Task<List<TIPOS_FACTURA>> GetAllTipoFactura();
     }
 }

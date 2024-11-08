@@ -16,7 +16,7 @@ namespace CocheraTp.Servicios.TipoFacServicio
             _unitOfWorkTipoFac = unitOfWorkTipoFac;
         }
 
-        public async Task<List<TIPO_FACTURA>> GetAllTipoFactura()
+        public async Task<List<TIPOS_FACTURA>> GetAllTipoFactura()
         {
             return await _unitOfWorkTipoFac.TipoFacRepository.GetAllTipoFactura();  
         }

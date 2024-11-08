@@ -16,7 +16,7 @@ namespace ApiCocheras.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<TIPO_FACTURA>>> GetAllTipoFactura()
+        public async Task<ActionResult<IEnumerable<TIPOS_FACTURA>>> GetAllTipoFactura()
         {
             try
             {

@@ -12,9 +12,9 @@ namespace CocheraTp.Repository.CarpetaRepositoryTipoVehiculo.Implementacion
         {
             _context = context;
         }
-        public async Task<List<TIPO_VEHICULO>> GetAllTipoVehiculo()
+        public async Task<List<TIPOS_VEHICULO>> GetAllTipoVehiculo()
         {
-            return await _context.TIPO_VEHICULOs.ToListAsync();
+            return await _context.TIPOS_VEHICULOs.ToListAsync();
         }
     }
 }

@@ -9,6 +9,6 @@ namespace CocheraTp.Repository.CarpetaRepositoryTipoFactura.Interfaces
 {
     public interface ITipoFacRepository
     {
-        Task<List<TIPO_FACTURA>> GetAllTipoFactura();
+        Task<List<TIPOS_FACTURA>> GetAllTipoFactura();
     }
 }

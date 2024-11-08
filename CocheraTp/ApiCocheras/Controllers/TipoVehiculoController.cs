@@ -16,7 +16,7 @@ namespace ApiCocheras.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<TIPO_VEHICULO>>> GetAllTipoVehiculo()
+        public async Task<ActionResult<IEnumerable<TIPOS_VEHICULO>>> GetAllTipoVehiculo()
         {
             try
             {
