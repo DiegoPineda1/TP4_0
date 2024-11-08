@@ -1,0 +1,14 @@
+# Ignora la carpeta .vs generada por Visual Studio
+.vs/
+
+# Ignora archivos de compilación comunes
+*.obj
+*.exe
+*.dll
+*.pdb
+*.vcxproj.*
+
+# Ignora carpetas de configuración y archivos temporales
+.idea/
+bin/
+obj/
