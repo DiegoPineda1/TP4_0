@@ -10,7 +10,7 @@ namespace CocheraTp.Servicios.TipoVehiculoService
         {
             _tipoVehiculo = tipoVehiculo;
         }
-        public async Task<List<TIPO_VEHICULO>> GetAllTipoVehiculo()
+        public async Task<List<TIPOS_VEHICULO>> GetAllTipoVehiculo()
         {
             return await _tipoVehiculo.GetAllTipoVehiculo();
         }

@@ -16,27 +16,28 @@ namespace CocheraTp.Servicios.LugarServicio
         {
             _unitOfWork = unitOfWork;
         }
-        public async Task<List<LUGARE>> GetAllLugares()
-        {
-            return await _unitOfWork.LugarRepository.GetAllLugares();
-        }
+        //    public async Task<List<LUGARE>> GetAllLugares()
+        //    {
+        //        return await _unitOfWork.LugarRepository.GetAllLugares();
+        //    }
 
-        public async Task<List<LUGARE>> GetLugaresDisponibles()
-        {
-            return await _unitOfWork.LugarRepository.GetLugaresDisponibles();
-        }
+        //    public async Task<List<LUGARE>> GetLugaresDisponibles()
+        //    {
+        //        return await _unitOfWork.LugarRepository.GetLugaresDisponibles();
+        //    }
 
-        public async Task<bool> UpdateLugar(string id)
-        {
-            var actualizado = await _unitOfWork.LugarRepository.UpdateLugar(id);
-            if(actualizado)
-            {
-                await _unitOfWork.SaveChangesAsync();
-                return true;
-            }
-            return false;
-        }
+        //    public async Task<bool> UpdateLugar(string id)
+        //    {
+        //        var actualizado = await _unitOfWork.LugarRepository.UpdateLugar(id);
+        //        if(actualizado)
+        //        {
+        //            await _unitOfWork.SaveChangesAsync();
+        //            return true;
+        //        }
+        //        return false;
+        //    }
 
+        //}
     }
 }
 

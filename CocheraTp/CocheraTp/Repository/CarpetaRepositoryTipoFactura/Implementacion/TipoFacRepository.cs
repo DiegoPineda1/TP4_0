@@ -16,9 +16,9 @@ namespace CocheraTp.Repository.CarpetaRepositoryTipoFactura.Implementacion
         {
             _context = context;
         }
-        public async Task<List<TIPO_FACTURA>> GetAllTipoFactura()
+        public async Task<List<TIPOS_FACTURA>> GetAllTipoFactura()
         {
-            return await _context.TIPO_FACTURAs.ToListAsync();
+            return await _context.TIPOS_FACTURAs.ToListAsync();
         }
     }
 }
