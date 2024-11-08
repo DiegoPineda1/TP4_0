@@ -19,7 +19,9 @@ public partial class VEHICULO
 
     public virtual ICollection<DETALLE_FACTURA> DETALLE_FACTURAs { get; set; } = new List<DETALLE_FACTURA>();
 
+    public virtual ICollection<REMITO> REMITOs { get; set; } = new List<REMITO>();
+
     public virtual MODELO id_modeloNavigation { get; set; }
 
-    public virtual TIPO_VEHICULO id_tipo_vehiculoNavigation { get; set; }
+    public virtual TIPOS_VEHICULO id_tipo_vehiculoNavigation { get; set; }
 }
