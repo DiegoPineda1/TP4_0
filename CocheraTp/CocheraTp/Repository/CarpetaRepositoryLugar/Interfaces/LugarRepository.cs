@@ -15,34 +15,48 @@ namespace CocheraTp.Repository.CarpetaRepositoryLugar.Interfaces
         {
             _context = context;
         }
+
         public async Task<List<LUGARE>> GetAllLugares()
         {
             return await _context.LUGAREs.ToListAsync();
-
         }
 
-        //public async Task<List<LUGARE>> GetLugaresDisponibles()
-        //{
-        //    return await _context.LUGAREs.Where(l => l.esta_ocupado == false).ToListAsync();
-        //}
+
+        public async Task<List<LUGARE>> GetLugaresDisponibles()
+        {
+            return await _context.LUGAREs
+                                  .Where(l => l.seccion_uno == false && l.seccion_dos == false)
+                                  .ToListAsync();
+        }
 
 
-        //public async Task<bool> UpdateLugar(string id)
-        //{
-        //    var lugar = await _context.LUGAREs.FindAsync(id);
+        public async Task<bool> UpdateLugar(string id, int tipoVehiculo)
+        {
 
-        //    if(lugar.esta_ocupado == true)
-        //    {
-        //        lugar.esta_ocupado = false;
-        //        return true;
-        //    }
-        //    else
-        //    {
-        //        lugar.esta_ocupado = true;
-        //        return true;
-        //    }
-            
-        //}
+            var lugar = await _context.LUGAREs.FindAsync(id);
+            if (lugar == null)
+            {
+                return false;
+            }
 
+            switch (tipoVehiculo)
+            {
+                case 1:
+                case 3:
+                    lugar.seccion_uno = true;
+                    lugar.seccion_dos = true;
+                    break;
+                case 2:
+                    lugar.seccion_uno = true;
+                    lugar.seccion_dos = false;
+                    break;
+                default:
+                    return false;
+            }
+            lugar.id_tipo_vehiculo = tipoVehiculo;
+            await _context.SaveChangesAsync();
+            return true;
+        }
+
+        }
     }
-}

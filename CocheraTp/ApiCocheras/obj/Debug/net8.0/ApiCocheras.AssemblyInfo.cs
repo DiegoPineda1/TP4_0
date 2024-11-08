@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ApiCocheras")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6fb7f5ddb0843ab54a3760e640f4e8d994b3cffc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+348bb04ac465e75fa6ef59d5ea7a0ecf4d463425")]
 [assembly: System.Reflection.AssemblyProductAttribute("ApiCocheras")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ApiCocheras")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

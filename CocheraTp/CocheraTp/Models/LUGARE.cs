@@ -2,6 +2,7 @@
 #nullable disable
 using System;
 using System.Collections.Generic;
+using System.Text.Json.Serialization;
 
 namespace CocheraTp.Models;
 
@@ -15,9 +16,10 @@ public partial class LUGARE
 
     public int? id_tipo_vehiculo { get; set; }
 
+    [JsonIgnore]
     public virtual ICollection<DETALLE_FACTURA> DETALLE_FACTURAs { get; set; } = new List<DETALLE_FACTURA>();
-
+    [JsonIgnore]
     public virtual ICollection<REMITO> REMITOs { get; set; } = new List<REMITO>();
-
+    [JsonIgnore]
     public virtual TIPOS_VEHICULO id_tipo_vehiculoNavigation { get; set; }
 }

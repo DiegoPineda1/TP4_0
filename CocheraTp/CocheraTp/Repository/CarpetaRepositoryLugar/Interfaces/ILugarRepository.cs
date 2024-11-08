@@ -10,8 +10,10 @@ namespace CocheraTp.Repository.CarpetaRepositoryLugar.Interfaces
 {
     public interface ILugarRepository
     {
-        //Task<List<LUGARE>> GetAllLugares();
-        //Task<List<LUGARE>> GetLugaresDisponibles();
-        //Task<bool> UpdateLugar(string id);
+        Task<List<LUGARE>> GetAllLugares();
+        Task<List<LUGARE>> GetLugaresDisponibles();
+        Task<bool> UpdateLugar(string id, int tipoVehiculo);
+        
+
     }
 }
