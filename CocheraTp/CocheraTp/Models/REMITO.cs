@@ -2,6 +2,7 @@
 #nullable disable
 using System;
 using System.Collections.Generic;
+using System.Text.Json.Serialization;
 
 namespace CocheraTp.Models;
 
@@ -14,4 +15,8 @@ public partial class REMITO
     public string id_lugar { get; set; }
 
     public DateTime? fecha_entrada { get; set; }
+    [JsonIgnore]
+    public virtual LUGARE id_lugarNavigation { get; set; }
+    [JsonIgnore]
+    public virtual VEHICULO id_vehiculoNavigation { get; set; }
 }

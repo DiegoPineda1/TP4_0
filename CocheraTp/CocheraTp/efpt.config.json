@@ -55,15 +55,15 @@
          "ObjectType": 0
       },
       {
-         "Name": "[dbo].[TIPO_FACTURAS]",
-         "ObjectType": 0
-      },
-      {
-         "Name": "[dbo].[TIPO_VEHICULOS]",
-         "ObjectType": 0
-      },
-      {
          "Name": "[dbo].[TIPOS_DOC]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TIPOS_FACTURAS]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TIPOS_VEHICULOS]",
          "ObjectType": 0
       },
       {

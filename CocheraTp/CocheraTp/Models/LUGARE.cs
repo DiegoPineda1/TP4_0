@@ -9,7 +9,15 @@ public partial class LUGARE
 {
     public string id_lugar { get; set; }
 
-    public bool? esta_ocupado { get; set; }
+    public bool? seccion_uno { get; set; }
+
+    public bool? seccion_dos { get; set; }
+
+    public int? id_tipo_vehiculo { get; set; }
 
     public virtual ICollection<DETALLE_FACTURA> DETALLE_FACTURAs { get; set; } = new List<DETALLE_FACTURA>();
+
+    public virtual ICollection<REMITO> REMITOs { get; set; } = new List<REMITO>();
+
+    public virtual TIPOS_VEHICULO id_tipo_vehiculoNavigation { get; set; }
 }

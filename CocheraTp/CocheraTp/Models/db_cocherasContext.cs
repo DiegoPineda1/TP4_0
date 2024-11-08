@@ -35,9 +35,9 @@ public partial class db_cocherasContext : DbContext
 
     public virtual DbSet<TIPOS_DOC> TIPOS_DOCs { get; set; }
 
-    public virtual DbSet<TIPO_FACTURA> TIPO_FACTURAs { get; set; }
+    public virtual DbSet<TIPOS_FACTURA> TIPOS_FACTURAs { get; set; }
 
-    public virtual DbSet<TIPO_VEHICULO> TIPO_VEHICULOs { get; set; }
+    public virtual DbSet<TIPOS_VEHICULO> TIPOS_VEHICULOs { get; set; }
 
     public virtual DbSet<USUARIO> USUARIOs { get; set; }
 
@@ -67,17 +67,16 @@ public partial class db_cocherasContext : DbContext
                 .HasMaxLength(50)
                 .IsUnicode(false);
             entity.Property(e => e.direccion)
-                .HasMaxLength(30)
-                .IsUnicode(false);
-            entity.Property(e => e.e_mail)
                 .HasMaxLength(100)
-                .IsUnicode(false)
-                .HasColumnName("e-mail");
+                .IsUnicode(false);
+            entity.Property(e => e.email)
+                .HasMaxLength(50)
+                .IsUnicode(false);
             entity.Property(e => e.nombre)
                 .HasMaxLength(50)
                 .IsUnicode(false);
             entity.Property(e => e.nro_documento)
-                .HasMaxLength(20)
+                .HasMaxLength(30)
                 .IsUnicode(false);
             entity.Property(e => e.telefono)
                 .HasMaxLength(50)
@@ -98,15 +97,18 @@ public partial class db_cocherasContext : DbContext
 
             entity.ToTable("DETALLE_FACTURAS");
 
-            entity.Property(e => e.descuento).HasColumnType("decimal(10, 2)");
+            entity.Property(e => e.descuento).HasColumnType("decimal(4, 2)");
             entity.Property(e => e.fecha_entrada).HasColumnType("datetime");
             entity.Property(e => e.fecha_salida).HasColumnType("datetime");
+            entity.Property(e => e.id_lugar)
+                .HasMaxLength(10)
+                .IsUnicode(false);
             entity.Property(e => e.precio).HasColumnType("decimal(10, 2)");
-            entity.Property(e => e.recargo).HasColumnType("decimal(10, 2)");
+            entity.Property(e => e.recargo).HasColumnType("decimal(4, 2)");
 
             entity.HasOne(d => d.id_abonoNavigation).WithMany(p => p.DETALLE_FACTURAs)
                 .HasForeignKey(d => d.id_abono)
-                .HasConstraintName("id_abono");
+                .HasConstraintName("fk_abono");
 
             entity.HasOne(d => d.id_facturaNavigation).WithMany(p => p.DETALLE_FACTURAs)
                 .HasForeignKey(d => d.id_factura)
@@ -173,6 +175,14 @@ public partial class db_cocherasContext : DbContext
             entity.HasKey(e => e.id_lugar).HasName("pk_lugar");
 
             entity.ToTable("LUGARES");
+
+            entity.Property(e => e.id_lugar)
+                .HasMaxLength(10)
+                .IsUnicode(false);
+
+            entity.HasOne(d => d.id_tipo_vehiculoNavigation).WithMany(p => p.LUGAREs)
+                .HasForeignKey(d => d.id_tipo_vehiculo)
+                .HasConstraintName("fk_tipo_vehiculo");
         });
 
         modelBuilder.Entity<MARCA>(entity =>
@@ -208,6 +218,17 @@ public partial class db_cocherasContext : DbContext
             entity.ToTable("REMITO");
 
             entity.Property(e => e.fecha_entrada).HasColumnType("datetime");
+            entity.Property(e => e.id_lugar)
+                .HasMaxLength(10)
+                .IsUnicode(false);
+
+            entity.HasOne(d => d.id_lugarNavigation).WithMany(p => p.REMITOs)
+                .HasForeignKey(d => d.id_lugar)
+                .HasConstraintName("fk_lugar_remito");
+
+            entity.HasOne(d => d.id_vehiculoNavigation).WithMany(p => p.REMITOs)
+                .HasForeignKey(d => d.id_vehiculo)
+                .HasConstraintName("fk_vehiculo_remito");
         });
 
         modelBuilder.Entity<TIPOS_DOC>(entity =>
@@ -221,30 +242,27 @@ public partial class db_cocherasContext : DbContext
                 .IsUnicode(false);
         });
 
-        modelBuilder.Entity<TIPO_FACTURA>(entity =>
+        modelBuilder.Entity<TIPOS_FACTURA>(entity =>
         {
             entity.HasKey(e => e.id_tipo_factura).HasName("pk_tipo_factura");
 
-            entity.ToTable("TIPO_FACTURAS");
+            entity.ToTable("TIPOS_FACTURAS");
 
             entity.Property(e => e.descripcion)
                 .HasMaxLength(50)
                 .IsUnicode(false);
         });
 
-        modelBuilder.Entity<TIPO_VEHICULO>(entity =>
+        modelBuilder.Entity<TIPOS_VEHICULO>(entity =>
         {
             entity.HasKey(e => e.id_tipo_vehiculo).HasName("pk_tipo_vehiculo");
 
-            entity.ToTable("TIPO_VEHICULOS");
+            entity.ToTable("TIPOS_VEHICULOS");
 
             entity.Property(e => e.descripcion)
                 .HasMaxLength(50)
                 .IsUnicode(false);
-
-            entity.Property(e => e.precio)
-                .HasMaxLength(50)
-                .IsUnicode(false);
+            entity.Property(e => e.precio).HasColumnType("decimal(10, 2)");
         });
 
         modelBuilder.Entity<USUARIO>(entity =>
@@ -256,6 +274,9 @@ public partial class db_cocherasContext : DbContext
             entity.Property(e => e.contrasenia)
                 .HasMaxLength(50)
                 .IsUnicode(false);
+            entity.Property(e => e.rol)
+                .HasMaxLength(20)
+                .IsUnicode(false);
             entity.Property(e => e.usuario1)
                 .HasMaxLength(50)
                 .IsUnicode(false)
@@ -266,7 +287,7 @@ public partial class db_cocherasContext : DbContext
         {
             entity.HasKey(e => e.id_vehiculo).HasName("pk_vehiculo");
 
-            entity.ToTable("VEHICULOS", tb => tb.HasTrigger("check_patente_unique"));
+            entity.ToTable("VEHICULOS");
 
             entity.Property(e => e.color)
                 .HasMaxLength(50)

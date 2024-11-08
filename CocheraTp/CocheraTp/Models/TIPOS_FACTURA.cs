@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 namespace CocheraTp.Models;
 
-public partial class TIPO_FACTURA
+public partial class TIPOS_FACTURA
 {
     public int id_tipo_factura { get; set; }
 

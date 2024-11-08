@@ -13,5 +13,7 @@ public partial class USUARIO
 
     public string contrasenia { get; set; }
 
+    public string rol { get; set; }
+
     public virtual ICollection<FACTURA> FACTURAs { get; set; } = new List<FACTURA>();
 }
